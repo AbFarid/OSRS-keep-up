@@ -13,7 +13,7 @@
   import { fetchWikiSync, type PlayerData } from '../api/wikisync'
 
   import { player1Store, player2Store } from '../stores'
-  import { ark_i, ark_v } from '../mocks/players'
+  //   import { ark_i, ark_v } from '../mocks/players'
 
   const dispatch = createEventDispatcher()
 
