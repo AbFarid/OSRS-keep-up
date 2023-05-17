@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Temporary files
+mocks
+src/lib/combine.js
+src/lib/combat-achiev-*.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

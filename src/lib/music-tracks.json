@@ -1,0 +1,5119 @@
+[
+  {
+    "name": "Scape Original",
+    "id": 1,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:07",
+    "members": false
+  },
+  {
+    "name": "Scape Main",
+    "id": 2,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:13",
+    "members": false
+  },
+  {
+    "name": "Scape Ground",
+    "id": 3,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:29",
+    "members": false
+  },
+  {
+    "name": "Scape Scared",
+    "id": 4,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:17",
+    "members": false
+  },
+  {
+    "name": "Scape Santa",
+    "id": 5,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "04:07",
+    "members": false
+  },
+  {
+    "name": "Harmony",
+    "id": 6,
+    "unlockDetails": "Unlocked in the Lumbridge",
+    "duration": "03:37",
+    "members": false
+  },
+  {
+    "name": "Harmony 2",
+    "id": 7,
+    "unlockDetails": "Unlocked at the Lumbridge Castle cellar",
+    "duration": "04:18",
+    "members": false
+  },
+  {
+    "name": "The Lost Tribe",
+    "id": 8,
+    "unlockDetails": "Unlocked in the Dorgesh-Kaan mine",
+    "duration": "03:30",
+    "members": true
+  },
+  {
+    "name": "Autumn Voyage",
+    "id": 9,
+    "unlockDetails": "Unlocked in Lumbridge",
+    "duration": "02:16",
+    "members": false
+  },
+  {
+    "name": "Venture",
+    "id": 10,
+    "unlockDetails": "Unlocked at the Digsite",
+    "duration": "01:50",
+    "members": true
+  },
+  {
+    "name": "Venture 2",
+    "id": 11,
+    "unlockDetails": "Unlocked during The Dig Site",
+    "duration": "03:16",
+    "members": true
+  },
+  {
+    "name": "Background",
+    "id": 12,
+    "unlockDetails": "Unlocked on Entrana",
+    "duration": "04:02",
+    "members": true
+  },
+  {
+    "name": "Camelot",
+    "id": 13,
+    "unlockDetails": "Unlocked at Camelot",
+    "duration": "02:30",
+    "members": true
+  },
+  {
+    "name": "Flute Salad",
+    "id": 14,
+    "unlockDetails": "Unlocked in Lumbridge",
+    "duration": "01:55",
+    "members": false
+  },
+  {
+    "name": "Dream",
+    "id": 15,
+    "unlockDetails": "Unlocked in Lumbridge",
+    "duration": "02:33",
+    "members": false
+  },
+  {
+    "name": "Book of Spells",
+    "id": 16,
+    "unlockDetails": "Unlocked in Lumbridge",
+    "duration": "05:30",
+    "members": false
+  },
+  {
+    "name": "Doorways",
+    "id": 17,
+    "unlockDetails": "Unlocked in an area around Varrock and on the Isle of Souls.",
+    "duration": "02:31",
+    "members": false
+  },
+  {
+    "name": "Spirit",
+    "id": 18,
+    "unlockDetails": "Unlocked in Varrock",
+    "duration": "03:54",
+    "members": false
+  },
+  {
+    "name": "Cellar Song",
+    "id": 19,
+    "unlockDetails": "Unlocked at the vault under the Varrock West Bank",
+    "duration": "02:16",
+    "members": false
+  },
+  {
+    "name": "Greatness",
+    "id": 20,
+    "unlockDetails": "Unlocked at an area around Varrock",
+    "duration": "03:43",
+    "members": false
+  },
+  {
+    "name": "Adventure",
+    "id": 21,
+    "unlockDetails": "Unlocked in Varrock",
+    "duration": "02:41",
+    "members": false
+  },
+  {
+    "name": "Scape Wild",
+    "id": 22,
+    "unlockDetails": "Unlocked in the Wilderness.",
+    "duration": "02:21",
+    "members": false
+  },
+  {
+    "name": "Witching",
+    "id": 23,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "01:33",
+    "members": false
+  },
+  {
+    "name": "Scape Sad",
+    "id": 24,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "02:53",
+    "members": false
+  },
+  {
+    "name": "Garden",
+    "id": 25,
+    "unlockDetails": "Unlocked in Varrock",
+    "duration": "02:42",
+    "members": false
+  },
+  {
+    "name": "Expanse",
+    "id": 26,
+    "unlockDetails": "Unlocked in an area around Varrock",
+    "duration": "02:53",
+    "members": false
+  },
+  {
+    "name": "Scape Cave",
+    "id": 27,
+    "unlockDetails": "Unlocked in the cave below Tutorial Island.",
+    "duration": "02:38",
+    "members": false
+  },
+  {
+    "name": "Parade",
+    "id": 28,
+    "unlockDetails": "Unlocked in Silvarea",
+    "duration": "01:35",
+    "members": true
+  },
+  {
+    "name": "Medieval",
+    "id": 29,
+    "unlockDetails": "Unlocked in Varrock",
+    "duration": "03:59",
+    "members": false
+  },
+  {
+    "name": "Still Night",
+    "id": 30,
+    "unlockDetails": "Unlocked at an area around Varrock",
+    "duration": "02:48",
+    "members": false
+  },
+  {
+    "name": "Arabian 2",
+    "id": 31,
+    "unlockDetails": "Unlocked in Al Kharid",
+    "duration": "03:04",
+    "members": false
+  },
+  {
+    "name": "Arabian",
+    "id": 32,
+    "unlockDetails": "Unlocked in Al Kharid",
+    "duration": "03:56",
+    "members": false
+  },
+  {
+    "name": "Al Kharid",
+    "id": 33,
+    "unlockDetails": "Unlocked in Al Kharid",
+    "duration": "03:18",
+    "members": false
+  },
+  {
+    "name": "Forever",
+    "id": 34,
+    "unlockDetails": "Unlocked in Edgeville",
+    "duration": "03:39",
+    "members": false
+  },
+  {
+    "name": "Barbarianism",
+    "id": 35,
+    "unlockDetails": "Unlocked at Barbarian Village",
+    "duration": "04:33",
+    "members": false
+  },
+  {
+    "name": "Spooky",
+    "id": 36,
+    "unlockDetails": "Unlocked at Draynor Manor, during the Gravedigger random event and during the 2021 Halloween event.",
+    "duration": "03:35",
+    "members": false
+  },
+  {
+    "name": "Start",
+    "id": 37,
+    "unlockDetails": "Unlocked at Draynor Village.",
+    "duration": "02:45",
+    "members": false
+  },
+  {
+    "name": "Unknown Land",
+    "id": 38,
+    "unlockDetails": "Unlocked in Draynor Village",
+    "duration": "02:04",
+    "members": false
+  },
+  {
+    "name": "Vision",
+    "id": 39,
+    "unlockDetails": "Unlocked at the Wizards' Tower",
+    "duration": "02:50",
+    "members": false
+  },
+  {
+    "name": "Sea Shanty 2",
+    "id": 40,
+    "unlockDetails": "Unlocked at Port Sarim.",
+    "duration": "02:04",
+    "members": false
+  },
+  {
+    "name": "Fishing",
+    "id": 41,
+    "unlockDetails": "Unlocked at Catherby",
+    "duration": "03:08",
+    "members": true
+  },
+  {
+    "name": "High Seas",
+    "id": 42,
+    "unlockDetails": "Unlocked in Brimhaven",
+    "duration": "04:35",
+    "members": true
+  },
+  {
+    "name": "Jungle Island",
+    "id": 43,
+    "unlockDetails": "Unlocked at Musa Point",
+    "duration": "03:01",
+    "members": false
+  },
+  {
+    "name": "Sea Shanty",
+    "id": 44,
+    "unlockDetails": "Unlocked at Musa Point.",
+    "duration": "01:52",
+    "members": false
+  },
+  {
+    "name": "Arrival",
+    "id": 45,
+    "unlockDetails": "Unlocked in Falador",
+    "duration": "01:39",
+    "members": false
+  },
+  {
+    "name": "Fanfare",
+    "id": 46,
+    "unlockDetails": "Unlocked in Falador",
+    "duration": "02:23",
+    "members": false
+  },
+  {
+    "name": "Miles Away",
+    "id": 47,
+    "unlockDetails": "Unlocked south of Falador",
+    "duration": "03:48",
+    "members": false
+  },
+  {
+    "name": "Long Way Home",
+    "id": 48,
+    "unlockDetails": "Unlocked south of Falador",
+    "duration": "02:05",
+    "members": false
+  },
+  {
+    "name": "Wander",
+    "id": 49,
+    "unlockDetails": "Unlocks in Draynor Village",
+    "duration": "03:21",
+    "members": false
+  },
+  {
+    "name": "Alone",
+    "id": 50,
+    "unlockDetails": "Unlocked in the Clock Tower Dungeon and Ice Mountain",
+    "duration": "03:27",
+    "members": false
+  },
+  {
+    "name": "Gaol",
+    "id": 51,
+    "unlockDetails": "Unlocked in Gu'Tanoth",
+    "duration": "01:54",
+    "members": true
+  },
+  {
+    "name": "Nightfall",
+    "id": 52,
+    "unlockDetails": "Unlocked south of Falador.",
+    "duration": "03:47",
+    "members": false
+  },
+  {
+    "name": "Magical Journey",
+    "id": 53,
+    "unlockDetails": "Unlocked in Sorcerer's Tower",
+    "duration": "03:39",
+    "members": true
+  },
+  {
+    "name": "Fruits de Mer",
+    "id": 54,
+    "unlockDetails": "Unlocked at the Fishing Platform",
+    "duration": "05:27",
+    "members": true
+  },
+  {
+    "name": "Splendour",
+    "id": 55,
+    "unlockDetails": "Unlocked around Heroes' Guild and Chaos Temple near Goblin Village",
+    "duration": "03:42",
+    "members": false
+  },
+  {
+    "name": "Attack 4",
+    "id": 56,
+    "unlockDetails": "Unlocked during the Fight Arena  quest",
+    "duration": "02:29",
+    "members": true
+  },
+  {
+    "name": "Attack 1",
+    "id": 57,
+    "unlockDetails": "Unlocked in the Khazard Battlefield",
+    "duration": "02:08",
+    "members": true
+  },
+  {
+    "name": "Dwarf Theme",
+    "id": 58,
+    "unlockDetails": "Unlocked near the entrance to the Dwarven Mine",
+    "duration": "01:33",
+    "members": false
+  },
+  {
+    "name": "Mellow",
+    "id": 59,
+    "unlockDetails": "Unlocked in the Fishing Guild",
+    "duration": "03:42",
+    "members": true
+  },
+  {
+    "name": "Lightwalk",
+    "id": 60,
+    "unlockDetails": "Unlocked at Keep Le Faye",
+    "duration": "03:03",
+    "members": true
+  },
+  {
+    "name": "The Shadow",
+    "id": 61,
+    "unlockDetails": "Unlocked on Crandor",
+    "duration": "02:56",
+    "members": false
+  },
+  {
+    "name": "Wilderness 3",
+    "id": 62,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "01:49",
+    "members": false
+  },
+  {
+    "name": "Wonderous",
+    "id": 63,
+    "unlockDetails": "Unlocked near the Legends' Guild",
+    "duration": "03:51",
+    "members": true
+  },
+  {
+    "name": "Trinity",
+    "id": 64,
+    "unlockDetails": "Unlocked at the Legends' Guild",
+    "duration": "03:36",
+    "members": true
+  },
+  {
+    "name": "March",
+    "id": 65,
+    "unlockDetails": "Unlocked at the Combat Training Camp",
+    "duration": "01:52",
+    "members": true
+  },
+  {
+    "name": "Sad Meadow",
+    "id": 66,
+    "unlockDetails": "Unlocked during Plague City",
+    "duration": "03:36",
+    "members": true
+  },
+  {
+    "name": "Knightly",
+    "id": 67,
+    "unlockDetails": "Unlocked in the East Ardougne Castle",
+    "duration": "02:25",
+    "members": true
+  },
+  {
+    "name": "Baroque",
+    "id": 68,
+    "unlockDetails": "Unlocked at the Ardougne Market",
+    "duration": "02:08",
+    "members": true
+  },
+  {
+    "name": "Ballad of Enchantment",
+    "id": 69,
+    "unlockDetails": "Unlocked at the Ardougne Monastery",
+    "duration": "03:27",
+    "members": true
+  },
+  {
+    "name": "Monarch Waltz",
+    "id": 70,
+    "unlockDetails": "Unlocked at Sinclair Mansion",
+    "duration": "02:24",
+    "members": true
+  },
+  {
+    "name": "Overture",
+    "id": 71,
+    "unlockDetails": "Unlock in Seers' Village",
+    "duration": "01:46",
+    "members": true
+  },
+  {
+    "name": "Talking Forest",
+    "id": 72,
+    "unlockDetails": "Unlocked at McGrubor's Wood",
+    "duration": "02:29",
+    "members": true
+  },
+  {
+    "name": "Upcoming",
+    "id": 73,
+    "unlockDetails": "Unlocked at the Necromancer Tower",
+    "duration": "03:11",
+    "members": true
+  },
+  {
+    "name": "Gnome King",
+    "id": 74,
+    "unlockDetails": "Unlocked in the Tree Gnome Stronghold",
+    "duration": "02:22",
+    "members": true
+  },
+  {
+    "name": "Gnome Village",
+    "id": 75,
+    "unlockDetails": "Unlocked in the Tree Gnome Stronghold",
+    "duration": "01:22",
+    "members": true
+  },
+  {
+    "name": "Jolly R",
+    "id": 76,
+    "unlockDetails": "Unlocked at the northern dock in Brimhaven",
+    "duration": "01:40",
+    "members": true
+  },
+  {
+    "name": "Nomad",
+    "id": 77,
+    "unlockDetails": "Unlocked in Tai Bwo Wannai",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Spooky Jungle",
+    "id": 78,
+    "unlockDetails": "Unlocked to the south-west of Karamja",
+    "duration": "02:58",
+    "members": true
+  },
+  {
+    "name": "Reggae",
+    "id": 79,
+    "unlockDetails": "Unlocked in the south-east area of the Kharazi Jungle.",
+    "duration": "01:54",
+    "members": true
+  },
+  {
+    "name": "Lonesome",
+    "id": 80,
+    "unlockDetails": "Unlocked at the Desert Mining Camp",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "Tribal Background",
+    "id": 81,
+    "unlockDetails": "Unlocked at the south-east area of the Kharazi Jungle",
+    "duration": "03:31",
+    "members": true
+  },
+  {
+    "name": "Jungly 3",
+    "id": 82,
+    "unlockDetails": "Unlocked in Karamja",
+    "duration": "01:20",
+    "members": true
+  },
+  {
+    "name": "Landlubber",
+    "id": 83,
+    "unlockDetails": "Unlocked west of Brimhaven",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Tribal",
+    "id": 84,
+    "unlockDetails": "Unlocked east of Tai Bwo Wannai",
+    "duration": "02:07",
+    "members": true
+  },
+  {
+    "name": "Reggae 2",
+    "id": 85,
+    "unlockDetails": "Unlocked at the eastern area of the Karamja jungle",
+    "duration": "03:21",
+    "members": true
+  },
+  {
+    "name": "Tribal 2",
+    "id": 86,
+    "unlockDetails": "Unlocked at the gnome glider area in Karamja",
+    "duration": "03:46",
+    "members": true
+  },
+  {
+    "name": "Ambient Jungle",
+    "id": 87,
+    "unlockDetails": "Unlocked at Shilo Village",
+    "duration": "04:06",
+    "members": true
+  },
+  {
+    "name": "Lullaby",
+    "id": 88,
+    "unlockDetails": "Unlocked south-west of Rellekka",
+    "duration": "03:30",
+    "members": true
+  },
+  {
+    "name": "Waterfall",
+    "id": 89,
+    "unlockDetails": "Unlocked at the Baxtorian Falls",
+    "duration": "02:19",
+    "members": true
+  },
+  {
+    "name": "Voyage",
+    "id": 90,
+    "unlockDetails": "Unlocked at Baxtorian Falls",
+    "duration": "02:55",
+    "members": true
+  },
+  {
+    "name": "The Tower",
+    "id": 91,
+    "unlockDetails": "Unlocked north-west of East Ardougne",
+    "duration": "02:55",
+    "members": true
+  },
+  {
+    "name": "Theme",
+    "id": 92,
+    "unlockDetails": "Unlocked at the Coal Trucks",
+    "duration": "03:22",
+    "members": true
+  },
+  {
+    "name": "Lasting",
+    "id": 93,
+    "unlockDetails": "Unlocked at Hemenster",
+    "duration": "03:36",
+    "members": true
+  },
+  {
+    "name": "Emotion",
+    "id": 94,
+    "unlockDetails": "Unlocked at the Tree Gnome Maze",
+    "duration": "03:12",
+    "members": true
+  },
+  {
+    "name": "Fanfare 3",
+    "id": 95,
+    "unlockDetails": "Unlocked in Port Khazard",
+    "duration": "04:24",
+    "members": true
+  },
+  {
+    "name": "Horizon",
+    "id": 96,
+    "unlockDetails": "Unlocked in Taverley or during Beekeeper random event",
+    "duration": "03:25",
+    "members": false
+  },
+  {
+    "name": "Legion",
+    "id": 97,
+    "unlockDetails": "Unlocked at the Barbarian Outpost",
+    "duration": "04:08",
+    "members": true
+  },
+  {
+    "name": "Egypt",
+    "id": 98,
+    "unlockDetails": "This track unlocks in the Kharidian Desert (unlockable in free-to-play at Shantay Pass when on Classic music mode)",
+    "duration": "03:34",
+    "members": false
+  },
+  {
+    "name": "Desert Voyage",
+    "id": 99,
+    "unlockDetails": "Unlocked near the Desert Mining Camp",
+    "duration": "05:07",
+    "members": true
+  },
+  {
+    "name": "Arabian 3",
+    "id": 100,
+    "unlockDetails": "Unlocked outside of the Kalphite Lair",
+    "duration": "02:25",
+    "members": true
+  },
+  {
+    "name": "Neverland",
+    "id": 101,
+    "unlockDetails": "Unlocked at the Tree Gnome Stronghold",
+    "duration": "04:42",
+    "members": true
+  },
+  {
+    "name": "Moody",
+    "id": 102,
+    "unlockDetails": "Unlocked in the Underground Pass  entrance area or in the Wilderness",
+    "duration": "02:55",
+    "members": false
+  },
+  {
+    "name": "Serenade",
+    "id": 103,
+    "unlockDetails": "Unlocked at the Observatory",
+    "duration": "03:05",
+    "members": true
+  },
+  {
+    "name": "Long Ago",
+    "id": 104,
+    "unlockDetails": "Unlocked at Hazelmere's island",
+    "duration": "02:10",
+    "members": true
+  },
+  {
+    "name": "Magic Dance",
+    "id": 105,
+    "unlockDetails": "Unlocked in Yanille",
+    "duration": "03:48",
+    "members": true
+  },
+  {
+    "name": "Goblin Village",
+    "id": 106,
+    "unlockDetails": "Unlocked in the Goblin Village",
+    "duration": "01:35",
+    "members": false
+  },
+  {
+    "name": "Inspiration",
+    "id": 107,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "05:41",
+    "members": false
+  },
+  {
+    "name": "Army of Darkness",
+    "id": 108,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "02:35",
+    "members": false
+  },
+  {
+    "name": "Wildwood",
+    "id": 109,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:26",
+    "members": false
+  },
+  {
+    "name": "Wild Isle",
+    "id": 110,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "04:01",
+    "members": false
+  },
+  {
+    "name": "Undercurrent",
+    "id": 111,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "05:24",
+    "members": false
+  },
+  {
+    "name": "Attention",
+    "id": 112,
+    "unlockDetails": "Unlocked in Rimmington",
+    "duration": "02:52",
+    "members": false
+  },
+  {
+    "name": "Big Chords",
+    "id": 113,
+    "unlockDetails": "Unlocked near the west entrance to Yanille",
+    "duration": "02:28",
+    "members": true
+  },
+  {
+    "name": "Dangerous",
+    "id": 114,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "02:13",
+    "members": false
+  },
+  {
+    "name": "Emperor",
+    "id": 115,
+    "unlockDetails": "Unlocked in Rimmington",
+    "duration": "03:59",
+    "members": false
+  },
+  {
+    "name": "Expecting",
+    "id": 116,
+    "unlockDetails": "Unlocked at the Shrine of Scorpius north of the Observatory",
+    "duration": "03:45",
+    "members": true
+  },
+  {
+    "name": "Gnomeball",
+    "id": 117,
+    "unlockDetails": "Unlocked during the Gnome Ball minigame",
+    "duration": "02:31",
+    "members": true
+  },
+  {
+    "name": "Tree Spirits",
+    "id": 118,
+    "unlockDetails": "Unlocked west of the Tree Gnome Stronghold",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Faithless",
+    "id": 119,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:16",
+    "members": false
+  },
+  {
+    "name": "Underground",
+    "id": 120,
+    "unlockDetails": "Unlocked at Entrana Dungeon, Black demons in Taverley Dungeon, or in the Wilderness",
+    "duration": "03:36",
+    "members": false
+  },
+  {
+    "name": "Dark",
+    "id": 121,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "02:52",
+    "members": false
+  },
+  {
+    "name": "Soundscape",
+    "id": 122,
+    "unlockDetails": "Unlocked at the Feldip Hills glider area",
+    "duration": "03:21",
+    "members": true
+  },
+  {
+    "name": "In the Manor",
+    "id": 123,
+    "unlockDetails": "Unlocked south of Yanille",
+    "duration": "01:32",
+    "members": true
+  },
+  {
+    "name": "Close Quarters",
+    "id": 124,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:14",
+    "members": false
+  },
+  {
+    "name": "Jungly 2",
+    "id": 125,
+    "unlockDetails": "Unlocked in Karamja",
+    "duration": "02:17",
+    "members": true
+  },
+  {
+    "name": "Crystal Sword",
+    "id": 126,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "02:49",
+    "members": false
+  },
+  {
+    "name": "Newbie Melody",
+    "id": 127,
+    "unlockDetails": "Unlocked at Tutorial Island",
+    "duration": "03:42",
+    "members": false
+  },
+  {
+    "name": "Wilderness",
+    "id": 128,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:30",
+    "members": false
+  },
+  {
+    "name": "Wonder",
+    "id": 129,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:12",
+    "members": false
+  },
+  {
+    "name": "Troubled",
+    "id": 130,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:45",
+    "members": false
+  },
+  {
+    "name": "Deep Wildy",
+    "id": 131,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "02:31",
+    "members": false
+  },
+  {
+    "name": "Wilderness 2",
+    "id": 132,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:00",
+    "members": false
+  },
+  {
+    "name": "Jungly 1",
+    "id": 133,
+    "unlockDetails": "Unlocked in Karamja",
+    "duration": "02:41",
+    "members": true
+  },
+  {
+    "name": "Faerie",
+    "id": 134,
+    "unlockDetails": "Unlocked at Zanaris",
+    "duration": "02:51",
+    "members": true
+  },
+  {
+    "name": "Crystal Cave",
+    "id": 135,
+    "unlockDetails": "Unlocked at Zanaris market",
+    "duration": "03:52",
+    "members": true
+  },
+  {
+    "name": "Royale",
+    "id": 136,
+    "unlockDetails": "Unlocked at the Black Knights' Base in Taverley Dungeon",
+    "duration": "02:05",
+    "members": true
+  },
+  {
+    "name": "Attack 6",
+    "id": 137,
+    "unlockDetails": "Unlocked at the Gu'Tanoth Ogre Enclave",
+    "duration": "02:32",
+    "members": true
+  },
+  {
+    "name": "Expedition",
+    "id": 138,
+    "unlockDetails": "Unlocked in the Observatory Dungeon",
+    "duration": "02:52",
+    "members": true
+  },
+  {
+    "name": "Attack 2",
+    "id": 139,
+    "unlockDetails": "Unlocked in Elvarg's lair during the Dragon Slayer I  quest",
+    "duration": "02:28",
+    "members": false
+  },
+  {
+    "name": "Attack 5",
+    "id": 140,
+    "unlockDetails": "Unlocked in the King Black Dragon cave",
+    "duration": "02:05",
+    "members": true
+  },
+  {
+    "name": "Arabique",
+    "id": 141,
+    "unlockDetails": "Unlocked in the hellhound area of Taverley Dungeon",
+    "duration": "03:44",
+    "members": true
+  },
+  {
+    "name": "Dunjun",
+    "id": 142,
+    "unlockDetails": "Unlocked in Taverley Dungeon and in the Crypt under White Knights' Castle",
+    "duration": "02:49",
+    "members": false
+  },
+  {
+    "name": "Woe of the Wyvern",
+    "id": 143,
+    "unlockDetails": "Unlocked in the Asgarnian Ice Dungeon in the Skeletal Wyvern area",
+    "duration": "03:54",
+    "members": true
+  },
+  {
+    "name": "Starlight",
+    "id": 144,
+    "unlockDetails": "Unlocked at the Asgarnia Ice Dungeon.",
+    "duration": "03:11",
+    "members": false
+  },
+  {
+    "name": "Oriental",
+    "id": 145,
+    "unlockDetails": "Unlocked in Ah Za Rhoon during Shilo Village",
+    "duration": "03:11",
+    "members": true
+  },
+  {
+    "name": "Cave Background",
+    "id": 146,
+    "unlockDetails": "Unlocked at the Dwarven Mine",
+    "duration": "04:22",
+    "members": false
+  },
+  {
+    "name": "Attack 3",
+    "id": 147,
+    "unlockDetails": "Unlocked in the Lava Maze dungeon",
+    "duration": "02:50",
+    "members": true
+  },
+  {
+    "name": "Courage",
+    "id": 148,
+    "unlockDetails": "Unlocked in the blue dragon section of Taverley Dungeon",
+    "duration": "04:04",
+    "members": true
+  },
+  {
+    "name": "Rune Essence",
+    "id": 149,
+    "unlockDetails": "Unlocked in the Rune essence mine",
+    "duration": "02:00",
+    "members": false
+  },
+  {
+    "name": "Trawler",
+    "id": 150,
+    "unlockDetails": "Unlocked during the Fishing Trawler minigame",
+    "duration": "04:20",
+    "members": true
+  },
+  {
+    "name": "Trawler Minor",
+    "id": 151,
+    "unlockDetails": "Unlocked during the Fishing Trawler minigame",
+    "duration": "02:48",
+    "members": true
+  },
+  {
+    "name": "Underground Pass",
+    "id": 152,
+    "unlockDetails": "Unlocked during Underground Pass",
+    "duration": "04:12",
+    "members": true
+  },
+  {
+    "name": "Cursed",
+    "id": 153,
+    "unlockDetails": "Unlocked in the Underground Pass dungeon,  also plays in the Wrath Altar in the Myths' Guild",
+    "duration": "02:49",
+    "members": true
+  },
+  {
+    "name": "Intrepid",
+    "id": 154,
+    "unlockDetails": "Unlocked in Underground Pass (dungeon)",
+    "duration": "01:56",
+    "members": true
+  },
+  {
+    "name": "Voodoo Cult",
+    "id": 155,
+    "unlockDetails": "Unlocked during Legends' Quest",
+    "duration": "05:19",
+    "members": true
+  },
+  {
+    "name": "Superstition",
+    "id": 156,
+    "unlockDetails": "Unlocked during Legends' Quest",
+    "duration": "04:23",
+    "members": true
+  },
+  {
+    "name": "Iban",
+    "id": 157,
+    "unlockDetails": "Unlocked at Lord Iban's Lair",
+    "duration": "03:26",
+    "members": true
+  },
+  {
+    "name": "Chain of Command",
+    "id": 158,
+    "unlockDetails": "Unlocked during the Temple of Ikov  quest",
+    "duration": "05:00",
+    "members": true
+  },
+  {
+    "name": "Regal",
+    "id": 159,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:28",
+    "members": false
+  },
+  {
+    "name": "The Desert",
+    "id": 160,
+    "unlockDetails": "Unlocked to the west of the Kharidian Desert",
+    "duration": "08:51",
+    "members": true
+  },
+  {
+    "name": "Gnome Village 2",
+    "id": 161,
+    "unlockDetails": "Unlocked in the Tree Gnome Stronghold",
+    "duration": "04:42",
+    "members": true
+  },
+  {
+    "name": "Beyond",
+    "id": 162,
+    "unlockDetails": "Unlocked in the Dwarven Tunnel under White Wolf Mountain",
+    "duration": "02:46",
+    "members": true
+  },
+  {
+    "name": "Workshop",
+    "id": 163,
+    "unlockDetails": "Unlocked in Falador",
+    "duration": "04:10",
+    "members": false
+  },
+  {
+    "name": "Narnode's Theme",
+    "id": 164,
+    "unlockDetails": "Unlocked in the Grand Tree mine",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "Goblin Game",
+    "id": 165,
+    "unlockDetails": "Unlocked in the Goblin Cave",
+    "duration": "03:44",
+    "members": true
+  },
+  {
+    "name": "Escape",
+    "id": 166,
+    "unlockDetails": "Unlocked in the Hellhound's cave south-east of Ardougne",
+    "duration": "02:48",
+    "members": true
+  },
+  {
+    "name": "Mage Arena",
+    "id": 167,
+    "unlockDetails": "Unlocked at the Mage Arena",
+    "duration": "04:42",
+    "members": true
+  },
+  {
+    "name": "Complication",
+    "id": 168,
+    "unlockDetails": "Unlocked at the Chaos Altar",
+    "duration": "02:49",
+    "members": true
+  },
+  {
+    "name": "Heart and Mind",
+    "id": 169,
+    "unlockDetails": "Unlocked at the Body Altar",
+    "duration": "03:31",
+    "members": false
+  },
+  {
+    "name": "Zealot",
+    "id": 170,
+    "unlockDetails": "Unlocked at the Water Altar",
+    "duration": "04:18",
+    "members": false
+  },
+  {
+    "name": "Serene",
+    "id": 171,
+    "unlockDetails": "Unlocked at the Air Altar.",
+    "duration": "03:00",
+    "members": false
+  },
+  {
+    "name": "Cavern",
+    "id": 172,
+    "unlockDetails": "Unlocked at Yanille Agility dungeon",
+    "duration": "03:25",
+    "members": true
+  },
+  {
+    "name": "Miracle Dance",
+    "id": 173,
+    "unlockDetails": "Unlocked at the Mind Altar",
+    "duration": "04:33",
+    "members": false
+  },
+  {
+    "name": "Quest",
+    "id": 174,
+    "unlockDetails": "Unlocked at the Fire Altar",
+    "duration": "02:51",
+    "members": false
+  },
+  {
+    "name": "Scape Soft",
+    "id": 175,
+    "unlockDetails": "Unlocked north of Falador.",
+    "duration": "02:38",
+    "members": false
+  },
+  {
+    "name": "Shining",
+    "id": 176,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "04:37",
+    "members": false
+  },
+  {
+    "name": "Yesteryear",
+    "id": 177,
+    "unlockDetails": "Unlocked in Lumbridge",
+    "duration": "03:56",
+    "members": false
+  },
+  {
+    "name": "Fanfare 2",
+    "id": 178,
+    "unlockDetails": "Unlocked in the Karamja Ship Yard",
+    "duration": "01:57",
+    "members": true
+  },
+  {
+    "name": "The Emir's Arena",
+    "id": 179,
+    "unlockDetails": "Unlocked at the Emir's Arena",
+    "duration": "03:55",
+    "members": false
+  },
+  {
+    "name": "Shadowland",
+    "id": 180,
+    "unlockDetails": "Unlocked at east of Mort'ton",
+    "duration": "04:12",
+    "members": true
+  },
+  {
+    "name": "Shine",
+    "id": 181,
+    "unlockDetails": "Unlocked around Mage Training Arena.",
+    "duration": "02:40",
+    "members": false
+  },
+  {
+    "name": "Ice Melody",
+    "id": 182,
+    "unlockDetails": "Unlocked at White Wolf Mountain",
+    "duration": "02:17",
+    "members": true
+  },
+  {
+    "name": "Grumpy",
+    "id": 183,
+    "unlockDetails": "Unlocked at the Feldip Hills and Corsair Cove Dungeon",
+    "duration": "02:22",
+    "members": false
+  },
+  {
+    "name": "Chompy Hunt",
+    "id": 184,
+    "unlockDetails": "Unlocked east of Feldip Hills near Rantz",
+    "duration": "03:04",
+    "members": true
+  },
+  {
+    "name": "Twilight",
+    "id": 185,
+    "unlockDetails": "Unlocked during Elemental Workshop I",
+    "duration": "05:11",
+    "members": true
+  },
+  {
+    "name": "Morytania",
+    "id": 186,
+    "unlockDetails": "Unlocked in north-west Morytania",
+    "duration": "04:27",
+    "members": true
+  },
+  {
+    "name": "Dead Quiet",
+    "id": 187,
+    "unlockDetails": "Unlocked in the north area of Mort Myre Swamp",
+    "duration": "06:46",
+    "members": true
+  },
+  {
+    "name": "Village",
+    "id": 188,
+    "unlockDetails": "Unlocked at Canifis",
+    "duration": "03:34",
+    "members": true
+  },
+  {
+    "name": "Bone Dance",
+    "id": 189,
+    "unlockDetails": "Unlocked west of Mort'ton",
+    "duration": "03:05",
+    "members": true
+  },
+  {
+    "name": "Mausoleum",
+    "id": 190,
+    "unlockDetails": "Unlocked at Paterdomus",
+    "duration": "05:21",
+    "members": true
+  },
+  {
+    "name": "Forbidden",
+    "id": 191,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:53",
+    "members": false
+  },
+  {
+    "name": "Understanding",
+    "id": 192,
+    "unlockDetails": "Unlocked at the Nature Altar",
+    "duration": "03:57",
+    "members": true
+  },
+  {
+    "name": "Principality",
+    "id": 193,
+    "unlockDetails": "Unlocked in Burthorpe",
+    "duration": "04:27",
+    "members": true
+  },
+  {
+    "name": "Tremble",
+    "id": 194,
+    "unlockDetails": "Unlocked during Death Plateau",
+    "duration": "03:24",
+    "members": true
+  },
+  {
+    "name": "Hermit",
+    "id": 195,
+    "unlockDetails": "Unlocked in Saba's cave north-west of Burthorpe",
+    "duration": "01:46",
+    "members": true
+  },
+  {
+    "name": "La Mort",
+    "id": 196,
+    "unlockDetails": "Unlocked at the Death Altar",
+    "duration": "05:48",
+    "members": true
+  },
+  {
+    "name": "Stagnant",
+    "id": 197,
+    "unlockDetails": "Unlocked at The Hollows in Mort Myre Swamp",
+    "duration": "04:15",
+    "members": true
+  },
+  {
+    "name": "Breeze",
+    "id": 198,
+    "unlockDetails": "Unlocked at Isafdar near the Underground Pass",
+    "duration": "03:25",
+    "members": true
+  },
+  {
+    "name": "Stratosphere",
+    "id": 199,
+    "unlockDetails": "Unlocked at the Cosmic Altar",
+    "duration": "03:51",
+    "members": true
+  },
+  {
+    "name": "Time Out",
+    "id": 200,
+    "unlockDetails": "Unlocked during the Maze Random Event",
+    "duration": "03:03",
+    "members": false
+  },
+  {
+    "name": "Natural",
+    "id": 201,
+    "unlockDetails": "Unlocked near the Nature Grotto",
+    "duration": "04:42",
+    "members": true
+  },
+  {
+    "name": "Grotto",
+    "id": 202,
+    "unlockDetails": "Unlocked in the Nature Grotto",
+    "duration": "04:04",
+    "members": true
+  },
+  {
+    "name": "Waterlogged",
+    "id": 203,
+    "unlockDetails": "Unlocked south of Canifis",
+    "duration": "04:50",
+    "members": true
+  },
+  {
+    "name": "Artistry",
+    "id": 204,
+    "unlockDetails": "Unlocked during the Mime Random Event",
+    "duration": "03:37",
+    "members": false
+  },
+  {
+    "name": "Aztec",
+    "id": 205,
+    "unlockDetails": "Unlocked at the Brimhaven Agility Arena",
+    "duration": "03:30",
+    "members": true
+  },
+  {
+    "name": "Elven Mist",
+    "id": 206,
+    "unlockDetails": "Unlocked at the exit of the Underground Pass dungeon",
+    "duration": "03:49",
+    "members": true
+  },
+  {
+    "name": "Forest",
+    "id": 207,
+    "unlockDetails": "Unlocked north-east of Poison Waste",
+    "duration": "04:11",
+    "members": true
+  },
+  {
+    "name": "Lost Soul",
+    "id": 208,
+    "unlockDetails": "Unlocked in Poison Waste",
+    "duration": "03:24",
+    "members": true
+  },
+  {
+    "name": "Meridian",
+    "id": 209,
+    "unlockDetails": "Unlocked in Tirannwn",
+    "duration": "03:29",
+    "members": true
+  },
+  {
+    "name": "Woodland",
+    "id": 210,
+    "unlockDetails": "Unlocked at the Iorwerth Camp in Tirannwn",
+    "duration": "03:22",
+    "members": true
+  },
+  {
+    "name": "Overpass",
+    "id": 211,
+    "unlockDetails": "Unlocked in Arandar, east of Tirannwn",
+    "duration": "03:41",
+    "members": true
+  },
+  {
+    "name": "Contest",
+    "id": 212,
+    "unlockDetails": "Unlocked while fighting Dad during Troll Stronghold",
+    "duration": "02:39",
+    "members": true
+  },
+  {
+    "name": "Sojourn",
+    "id": 213,
+    "unlockDetails": "Unlocked in and around Troll Stronghold",
+    "duration": "03:39",
+    "members": true
+  },
+  {
+    "name": "Crystal Castle",
+    "id": 214,
+    "unlockDetails": "Unlocked south-east of Prifddinas",
+    "duration": "06:03",
+    "members": true
+  },
+  {
+    "name": "Marzipan",
+    "id": 215,
+    "unlockDetails": "Unlocked in Trollheim Cave",
+    "duration": "03:44",
+    "members": true
+  },
+  {
+    "name": "Insect Queen",
+    "id": 216,
+    "unlockDetails": "Unlocked in Kalphite Lair",
+    "duration": "04:14",
+    "members": true
+  },
+  {
+    "name": "Mad Eadgar",
+    "id": 217,
+    "unlockDetails": "Unlocked in Mad Eadgar's cave",
+    "duration": "03:42",
+    "members": true
+  },
+  {
+    "name": "Bandit Camp",
+    "id": 218,
+    "unlockDetails": "Unlocked at the Bandit Camp in the Kharidian Desert",
+    "duration": "03:00",
+    "members": true
+  },
+  {
+    "name": "Sunburn",
+    "id": 219,
+    "unlockDetails": "Unlocked in the area north of the Ancient Pyramid",
+    "duration": "04:52",
+    "members": true
+  },
+  {
+    "name": "Bone Dry",
+    "id": 220,
+    "unlockDetails": "Unlocked in the Smoke Dungeon near Pollnivneach",
+    "duration": "05:28",
+    "members": true
+  },
+  {
+    "name": "Competition",
+    "id": 221,
+    "unlockDetails": "Unlocked in the Burthorpe Games Room",
+    "duration": "04:57",
+    "members": true
+  },
+  {
+    "name": "Everywhere",
+    "id": 222,
+    "unlockDetails": "Unlocked north of Prifddinas",
+    "duration": "04:28",
+    "members": true
+  },
+  {
+    "name": "Exposed",
+    "id": 223,
+    "unlockDetails": "Unlocked South of Tyras Camp",
+    "duration": "04:22",
+    "members": true
+  },
+  {
+    "name": "Riverside",
+    "id": 224,
+    "unlockDetails": "Unlocked west of Tyras Camp",
+    "duration": "02:31",
+    "members": true
+  },
+  {
+    "name": "Well of Voyage",
+    "id": 225,
+    "unlockDetails": "Unlocked during Regicide",
+    "duration": "03:14",
+    "members": true
+  },
+  {
+    "name": "Righteousness",
+    "id": 226,
+    "unlockDetails": "Unlocked at the Law Altar",
+    "duration": "04:07",
+    "members": true
+  },
+  {
+    "name": "Down to Earth",
+    "id": 227,
+    "unlockDetails": "Unlocked at the Earth Altar",
+    "duration": "04:04",
+    "members": false
+  },
+  {
+    "name": "Haunted Mine",
+    "id": 228,
+    "unlockDetails": "Unlocked in the boss fight during the Haunted Mine  quest",
+    "duration": "03:17",
+    "members": true
+  },
+  {
+    "name": "Spooky 2",
+    "id": 229,
+    "unlockDetails": "Unlocked at the entrance to the Haunted Mine  and in the Isle of Souls dungeon.",
+    "duration": "03:44",
+    "members": true
+  },
+  {
+    "name": "Deep Down",
+    "id": 230,
+    "unlockDetails": "Unlocked on the bottom floor of the Abandoned Mine",
+    "duration": "06:13",
+    "members": true
+  },
+  {
+    "name": "Chamber",
+    "id": 231,
+    "unlockDetails": "Unlocked on the middle floor of the Haunted Mine",
+    "duration": "04:18",
+    "members": true
+  },
+  {
+    "name": "Miscellania",
+    "id": 232,
+    "unlockDetails": "Unlocked in Miscellania",
+    "duration": "04:24",
+    "members": true
+  },
+  {
+    "name": "Etceteria",
+    "id": 233,
+    "unlockDetails": "Unlocked on Etceteria",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Lair",
+    "id": 234,
+    "unlockDetails": "Unlocked in the Shade Catacombs",
+    "duration": "05:02",
+    "members": true
+  },
+  {
+    "name": "Deadlands",
+    "id": 235,
+    "unlockDetails": "Unlocked in Haunted Woods just outside Port Phasmatys",
+    "duration": "04:27",
+    "members": true
+  },
+  {
+    "name": "Rellekka",
+    "id": 236,
+    "unlockDetails": "Unlocked in Rellekka",
+    "duration": "04:36",
+    "members": true
+  },
+  {
+    "name": "Saga",
+    "id": 237,
+    "unlockDetails": "Unlocked south of Rellekka, near the bridge",
+    "duration": "05:15",
+    "members": true
+  },
+  {
+    "name": "Borderland",
+    "id": 238,
+    "unlockDetails": "Unlocked east of Rellekka",
+    "duration": "03:04",
+    "members": true
+  },
+  {
+    "name": "Legend",
+    "id": 239,
+    "unlockDetails": "Unlocked in Rellekka",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Warrior",
+    "id": 240,
+    "unlockDetails": "Unlocked during The Fremennik Trials",
+    "duration": "03:17",
+    "members": true
+  },
+  {
+    "name": "The Navigator",
+    "id": 241,
+    "unlockDetails": "Unlocked during The Fremennik Trials",
+    "duration": "05:38",
+    "members": true
+  },
+  {
+    "name": "Technology",
+    "id": 242,
+    "unlockDetails": "Unlocked during Monkey Madness I",
+    "duration": "05:10",
+    "members": true
+  },
+  {
+    "name": "Monkey Madness",
+    "id": 243,
+    "unlockDetails": "Unlocked in Ape Atoll",
+    "duration": "03:53",
+    "members": true
+  },
+  {
+    "name": "Anywhere",
+    "id": 244,
+    "unlockDetails": "Unlocked at Marim's main gate",
+    "duration": "03:57",
+    "members": true
+  },
+  {
+    "name": "Marooned",
+    "id": 245,
+    "unlockDetails": "Unlocked in Crash Island",
+    "duration": "03:17",
+    "members": true
+  },
+  {
+    "name": "Island Life",
+    "id": 246,
+    "unlockDetails": "Unlocked in Ape Atoll",
+    "duration": "03:41",
+    "members": true
+  },
+  {
+    "name": "Temple",
+    "id": 247,
+    "unlockDetails": "Unlocked at the Temple of Marimbo Dungeon",
+    "duration": "05:57",
+    "members": true
+  },
+  {
+    "name": "Suspicious",
+    "id": 248,
+    "unlockDetails": "Unlocked during Monkey Madness I",
+    "duration": "04:09",
+    "members": true
+  },
+  {
+    "name": "Showdown",
+    "id": 249,
+    "unlockDetails": "Unlocked during Monkey Madness I , at the ape atoll banana plantation during the fight against the Jungle Demon",
+    "duration": "03:18",
+    "members": true
+  },
+  {
+    "name": "Find My Way",
+    "id": 250,
+    "unlockDetails": "Unlocked at the Ape Atoll Dungeon",
+    "duration": "04:10",
+    "members": true
+  },
+  {
+    "name": "Castle Wars",
+    "id": 251,
+    "unlockDetails": "Unlocked while playing the Castle Wars minigame",
+    "duration": "03:49",
+    "members": false
+  },
+  {
+    "name": "Melodrama",
+    "id": 252,
+    "unlockDetails": "Unlocked at Castle Wars",
+    "duration": "03:15",
+    "members": false
+  },
+  {
+    "name": "Ready for Battle",
+    "id": 253,
+    "unlockDetails": "Unlocked in the waiting room in Castle Wars",
+    "duration": "03:36",
+    "members": false
+  },
+  {
+    "name": "Lighthouse",
+    "id": 254,
+    "unlockDetails": "Unlocked at the Lighthouse",
+    "duration": "04:45",
+    "members": true
+  },
+  {
+    "name": "Out of the Deep",
+    "id": 255,
+    "unlockDetails": "Unlocked during Horror from the Deep",
+    "duration": "04:07",
+    "members": true
+  },
+  {
+    "name": "Hells Bells",
+    "id": 256,
+    "unlockDetails": "Unlocked during the Troll Romance  quest",
+    "duration": "03:29",
+    "members": true
+  },
+  {
+    "name": "Pirates of Peril",
+    "id": 257,
+    "unlockDetails": "Unlocked near the Pirates' Hideout in the deep Wilderness",
+    "duration": "03:27",
+    "members": true
+  },
+  {
+    "name": "Dangerous Road",
+    "id": 258,
+    "unlockDetails": "Unlocked under Crandor",
+    "duration": "03:28",
+    "members": false
+  },
+  {
+    "name": "Romancing the Crone",
+    "id": 259,
+    "unlockDetails": "Unlocked during Troll Romance",
+    "duration": "03:11",
+    "members": true
+  },
+  {
+    "name": "Stranded",
+    "id": 260,
+    "unlockDetails": "Unlocked during Desert Treasure I , at the Ice Path",
+    "duration": "04:54",
+    "members": true
+  },
+  {
+    "name": "Stillness",
+    "id": 261,
+    "unlockDetails": "Unlocked during In Search of the Myreque",
+    "duration": "05:38",
+    "members": true
+  },
+  {
+    "name": "7th Realm",
+    "id": 262,
+    "unlockDetails": "Unlocked in the Brimhaven Dungeon",
+    "duration": "04:07",
+    "members": true
+  },
+  {
+    "name": "Karamja Jam",
+    "id": 263,
+    "unlockDetails": "Unlocked in the Brimhaven Dungeon",
+    "duration": "03:48",
+    "members": true
+  },
+  {
+    "name": "Pathways",
+    "id": 264,
+    "unlockDetails": "Unlocked at the Brimhaven Dungeon entrance",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "The Terrible Tower",
+    "id": 265,
+    "unlockDetails": "Unlocked at the Slayer Tower",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Masquerade",
+    "id": 266,
+    "unlockDetails": "Unlocked in the Fremennik Slayer Dungeon",
+    "duration": "03:26",
+    "members": true
+  },
+  {
+    "name": "The Slayer",
+    "id": 267,
+    "unlockDetails": "Unlocked in the Fremennik Slayer Dungeon",
+    "duration": "03:25",
+    "members": true
+  },
+  {
+    "name": "Body Parts",
+    "id": 268,
+    "unlockDetails": "Unlocked in the Experiment cave south-east of Fenkenstrain's Castle",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Fenkenstrain's Refrain",
+    "id": 269,
+    "unlockDetails": "Unlocked at Fenkenstrain's Castle",
+    "duration": "04:08",
+    "members": true
+  },
+  {
+    "name": "Barking Mad",
+    "id": 270,
+    "unlockDetails": "Unlocked at the Werewolf Agility Course",
+    "duration": "02:56",
+    "members": true
+  },
+  {
+    "name": "Shipwrecked",
+    "id": 271,
+    "unlockDetails": "Unlocked at the shipwreck east of Fenkenstrain's Castle",
+    "duration": "03:27",
+    "members": true
+  },
+  {
+    "name": "Phasmatys",
+    "id": 272,
+    "unlockDetails": "Unlocked at the ectoplasm in the Ectofuntus.",
+    "duration": "04:49",
+    "members": true
+  },
+  {
+    "name": "The Other Side",
+    "id": 273,
+    "unlockDetails": "Unlocked in Port Phasmatys",
+    "duration": "05:30",
+    "members": true
+  },
+  {
+    "name": "Dragontooth Island",
+    "id": 274,
+    "unlockDetails": "Unlocked on Dragontooth Island",
+    "duration": "04:59",
+    "members": true
+  },
+  {
+    "name": "Monster Melee",
+    "id": 275,
+    "unlockDetails": "Unlocked at the Humans Against Monsters area",
+    "duration": "03:46",
+    "members": true
+  },
+  {
+    "name": "Settlement",
+    "id": 276,
+    "unlockDetails": "Unlocked in the Mountain Camp",
+    "duration": "04:54",
+    "members": true
+  },
+  {
+    "name": "Cave of Beasts",
+    "id": 277,
+    "unlockDetails": "Unlocked during the Mountain Daughter  quest",
+    "duration": "05:59",
+    "members": true
+  },
+  {
+    "name": "Cave of the Goblins",
+    "id": 278,
+    "unlockDetails": "Unlocked in the Lumbridge Swamp Caves",
+    "duration": "04:41",
+    "members": true
+  },
+  {
+    "name": "Land of the Dwarves",
+    "id": 279,
+    "unlockDetails": "Unlocked in the west side of Keldagrim",
+    "duration": "04:38",
+    "members": true
+  },
+  {
+    "name": "Tale of Keldagrim",
+    "id": 280,
+    "unlockDetails": "Unlocked in eastern Keldagrim",
+    "duration": "03:54",
+    "members": true
+  },
+  {
+    "name": "Time to Mine",
+    "id": 281,
+    "unlockDetails": "Unlocked during Between a Rock...",
+    "duration": "04:47",
+    "members": true
+  },
+  {
+    "name": "In Between",
+    "id": 282,
+    "unlockDetails": "Unlocked in Arzinian Mine",
+    "duration": "04:55",
+    "members": true
+  },
+  {
+    "name": "Claustrophobia",
+    "id": 283,
+    "unlockDetails": "Unlocked in the gold mine from Between a Rock...",
+    "duration": "05:18",
+    "members": true
+  },
+  {
+    "name": "Dynasty",
+    "id": 284,
+    "unlockDetails": "Unlocked in Pollnivneach",
+    "duration": "04:22",
+    "members": true
+  },
+  {
+    "name": "The Golem",
+    "id": 285,
+    "unlockDetails": "Unlocked in the Ruins of Uzer",
+    "duration": "05:25",
+    "members": true
+  },
+  {
+    "name": "Throne of the Demon",
+    "id": 286,
+    "unlockDetails": "Unlocked during Shadow of the Storm",
+    "duration": "05:54",
+    "members": true
+  },
+  {
+    "name": "Forgotten",
+    "id": 287,
+    "unlockDetails": "Unlocked in Uzer",
+    "duration": "05:07",
+    "members": true
+  },
+  {
+    "name": "Incantation",
+    "id": 288,
+    "unlockDetails": "Unlocked during the Shadow of the Storm  quest",
+    "duration": "05:40",
+    "members": true
+  },
+  {
+    "name": "Grip of the Talon",
+    "id": 289,
+    "unlockDetails": "Unlocked during the Shadow of the Storm  quest",
+    "duration": "02:50",
+    "members": true
+  },
+  {
+    "name": "Frostbite",
+    "id": 290,
+    "unlockDetails": "Unlocked during Desert Treasure I",
+    "duration": "05:26",
+    "members": true
+  },
+  {
+    "name": "Scarab",
+    "id": 291,
+    "unlockDetails": "Unlocked during Desert Treasure I",
+    "duration": "05:10",
+    "members": true
+  },
+  {
+    "name": "Sarcophagus",
+    "id": 292,
+    "unlockDetails": "Unlocked during Desert Treasure I",
+    "duration": "04:19",
+    "members": true
+  },
+  {
+    "name": "Path of Peril",
+    "id": 293,
+    "unlockDetails": "Unlocked at the Shadow Dungeon",
+    "duration": "06:29",
+    "members": true
+  },
+  {
+    "name": "Down Below",
+    "id": 294,
+    "unlockDetails": "Unlocked in the Draynor Sewers",
+    "duration": "03:00",
+    "members": false
+  },
+  {
+    "name": "City of the Dead",
+    "id": 295,
+    "unlockDetails": "Unlocked in Sophanem. After the Contact! quest, it is replaced by the Back to Life music track.",
+    "duration": "06:30",
+    "members": true
+  },
+  {
+    "name": "Sphinx",
+    "id": 296,
+    "unlockDetails": "Unlocked during Icthlarin's Little Helper",
+    "duration": "04:31",
+    "members": true
+  },
+  {
+    "name": "Hypnotised",
+    "id": 297,
+    "unlockDetails": "Unlocked while hypnotised during the Icthlarin's Little Helper  quest",
+    "duration": "04:46",
+    "members": true
+  },
+  {
+    "name": "Mirage",
+    "id": 298,
+    "unlockDetails": "Unlocked during Icthlarin's Little Helper",
+    "duration": "05:28",
+    "members": true
+  },
+  {
+    "name": "Tears of Guthix",
+    "id": 299,
+    "unlockDetails": "Unlocked during the Tears of Guthix  minigame",
+    "duration": "06:39",
+    "members": true
+  },
+  {
+    "name": "The Power of Tears",
+    "id": 300,
+    "unlockDetails": "Unlocked during the Tears of Guthix  minigame",
+    "duration": "02:20",
+    "members": true
+  },
+  {
+    "name": "Dance of the Undead",
+    "id": 301,
+    "unlockDetails": "Unlocked at the Barrows",
+    "duration": "03:59",
+    "members": true
+  },
+  {
+    "name": "Dangerous Way",
+    "id": 302,
+    "unlockDetails": "Unlocked in the Barrows underground",
+    "duration": "05:32",
+    "members": true
+  },
+  {
+    "name": "Zogre Dance",
+    "id": 303,
+    "unlockDetails": "Unlocked south of Castle Wars where you start the Zogre Flesh Eaters  quest",
+    "duration": "05:10",
+    "members": true
+  },
+  {
+    "name": "Wayward",
+    "id": 304,
+    "unlockDetails": "Unlocked in the dungeon beneath Jiggig",
+    "duration": "05:37",
+    "members": true
+  },
+  {
+    "name": "Romper Chomper",
+    "id": 305,
+    "unlockDetails": "Unlocked at the ogre area south of Castle Wars",
+    "duration": "03:18",
+    "members": true
+  },
+  {
+    "name": "The Lost Melody",
+    "id": 306,
+    "unlockDetails": "Unlocked in the Dorgesh-Kaan mine after Death to the Dorgeshuun",
+    "duration": "03:30",
+    "members": true
+  },
+  {
+    "name": "Into the Abyss",
+    "id": 307,
+    "unlockDetails": "Unlocked in the Abyss",
+    "duration": "04:30",
+    "members": true
+  },
+  {
+    "name": "The Rogues' Den",
+    "id": 308,
+    "unlockDetails": "Unlocked in The Rogues' Den, located in Burthorpe",
+    "duration": "05:14",
+    "members": true
+  },
+  {
+    "name": "The Far Side",
+    "id": 309,
+    "unlockDetails": "Unlocked deep within the Rogues' Den maze",
+    "duration": "03:55",
+    "members": true
+  },
+  {
+    "name": "The Chosen",
+    "id": 310,
+    "unlockDetails": "Unlocked during the Recruitment Drive  quest",
+    "duration": "04:19",
+    "members": true
+  },
+  {
+    "name": "Far Away",
+    "id": 311,
+    "unlockDetails": "Unlocked during Mourning's End Part I",
+    "duration": "04:34",
+    "members": true
+  },
+  {
+    "name": "Fight or Flight",
+    "id": 312,
+    "unlockDetails": "Unlocked in a slave mine below West Ardougne during Mourning's End Part I",
+    "duration": "04:26",
+    "members": true
+  },
+  {
+    "name": "Forgettable Melody",
+    "id": 313,
+    "unlockDetails": "Unlocked during Forgettable Tale...",
+    "duration": "03:54",
+    "members": true
+  },
+  {
+    "name": "Right on Track",
+    "id": 314,
+    "unlockDetails": "Unlocked during Forgettable Tale...",
+    "duration": "03:05",
+    "members": true
+  },
+  {
+    "name": "The Monsters Below",
+    "id": 315,
+    "unlockDetails": "Unlocked at Waterbirth Island",
+    "duration": "03:57",
+    "members": true
+  },
+  {
+    "name": "The Desolate Isle",
+    "id": 316,
+    "unlockDetails": "Unlocked on Waterbirth Island",
+    "duration": "06:34",
+    "members": true
+  },
+  {
+    "name": "Evil Bob's Island",
+    "id": 317,
+    "unlockDetails": "Unlocked on Evil Bob's island",
+    "duration": "03:43",
+    "members": false
+  },
+  {
+    "name": "Pheasant Peasant",
+    "id": 318,
+    "unlockDetails": "Unlocked during the Freaky Forester random event",
+    "duration": "03:48",
+    "members": false
+  },
+  {
+    "name": "Frogland",
+    "id": 319,
+    "unlockDetails": "Unlocked automatically (previously unlocked by refusing to help in the Kiss the frog random event)",
+    "duration": "02:05",
+    "members": false
+  },
+  {
+    "name": "The Quizmaster",
+    "id": 320,
+    "unlockDetails": "Unlocked in the Quiz Master Random Event",
+    "duration": "04:15",
+    "members": false
+  },
+  {
+    "name": "Brew Hoo Hoo!",
+    "id": 321,
+    "unlockDetails": "Unlocked in the Port Phasmatys brewery basement",
+    "duration": "04:18",
+    "members": true
+  },
+  {
+    "name": "Wild Side",
+    "id": 322,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "05:16",
+    "members": false
+  },
+  {
+    "name": "Lightness",
+    "id": 323,
+    "unlockDetails": "Unlocked north of Falador",
+    "duration": "04:29",
+    "members": false
+  },
+  {
+    "name": "Dead Can Dance",
+    "id": 324,
+    "unlockDetails": "Unlocked in the Wilderness. It could also be unlocked during a cutscene in the 2021 Halloween event.",
+    "duration": "03:41",
+    "members": false
+  },
+  {
+    "name": "The Cellar Dwellers",
+    "id": 325,
+    "unlockDetails": "Unlocked at the Ardougne Sewers during the Hazeel Cult  quest",
+    "duration": "05:10",
+    "members": true
+  },
+  {
+    "name": "Jungle Troubles",
+    "id": 326,
+    "unlockDetails": "Unlocked near the Jogres north of Tai Bwo Wannai",
+    "duration": "03:51",
+    "members": true
+  },
+  {
+    "name": "Have a Blast",
+    "id": 327,
+    "unlockDetails": "Unlocked during the Blast Furnace minigame",
+    "duration": "04:30",
+    "members": true
+  },
+  {
+    "name": "Fire and Brimstone",
+    "id": 328,
+    "unlockDetails": "Unlocked in the TzHaar Fight Pit",
+    "duration": "04:20",
+    "members": true
+  },
+  {
+    "name": "In the Pits",
+    "id": 329,
+    "unlockDetails": "Unlocked in the outer area of Mor Ul Rek",
+    "duration": "04:04",
+    "members": true
+  },
+  {
+    "name": "TzHaar!",
+    "id": 330,
+    "unlockDetails": "Unlocked in the TzHaar Fight Cave",
+    "duration": "03:42",
+    "members": true
+  },
+  {
+    "name": "Strange Place",
+    "id": 331,
+    "unlockDetails": "Unlocked during A Tail of Two Cats",
+    "duration": "05:17",
+    "members": true
+  },
+  {
+    "name": "Temple of Light",
+    "id": 332,
+    "unlockDetails": "Unlocked during Mourning's End Part II",
+    "duration": "06:18",
+    "members": true
+  },
+  {
+    "name": "Corporal Punishment",
+    "id": 333,
+    "unlockDetails": "Unlocked in the Drill Demon random event",
+    "duration": "04:28",
+    "members": false
+  },
+  {
+    "name": "Mudskipper Melody",
+    "id": 334,
+    "unlockDetails": "Unlocked at Mudskipper Point",
+    "duration": "04:03",
+    "members": false
+  },
+  {
+    "name": "Aye Car Rum Ba",
+    "id": 335,
+    "unlockDetails": "Unlocked on Braindeath Island",
+    "duration": "04:17",
+    "members": true
+  },
+  {
+    "name": "Blistering Barnacles",
+    "id": 336,
+    "unlockDetails": "Unlocked on the Braindeath Island Mountain",
+    "duration": "03:57",
+    "members": true
+  },
+  {
+    "name": "Subterranea",
+    "id": 337,
+    "unlockDetails": "Unlocked in the Waterbirth Island Dungeon",
+    "duration": "04:37",
+    "members": true
+  },
+  {
+    "name": "Dagannoth Dawn",
+    "id": 338,
+    "unlockDetails": "Unlocked in Waterbirth Island",
+    "duration": "03:18",
+    "members": true
+  },
+  {
+    "name": "Xenophobe",
+    "id": 339,
+    "unlockDetails": "Unlocked on the bottom level of the Waterbirth Island Dungeon",
+    "duration": "02:54",
+    "members": true
+  },
+  {
+    "name": "Rat Hunt",
+    "id": 340,
+    "unlockDetails": "Unlocked during Ratcatchers",
+    "duration": "03:19",
+    "members": true
+  },
+  {
+    "name": "Rat a Tat Tat",
+    "id": 341,
+    "unlockDetails": "Unlocked at the Varrock Rat Pits",
+    "duration": "02:55",
+    "members": true
+  },
+  {
+    "name": "The Noble Rodent",
+    "id": 342,
+    "unlockDetails": "Unlocked during Ratcatchers",
+    "duration": "03:11",
+    "members": true
+  },
+  {
+    "name": "Bubble and Squeak",
+    "id": 343,
+    "unlockDetails": "Unlocked at the Keldagrim Rat Pits",
+    "duration": "03:10",
+    "members": true
+  },
+  {
+    "name": "Sarim's Vermin",
+    "id": 344,
+    "unlockDetails": "Unlocked during Ratcatchers",
+    "duration": "03:19",
+    "members": true
+  },
+  {
+    "name": "Catch Me If You Can",
+    "id": 345,
+    "unlockDetails": "Unlocked at the Ardougne Rat Pits",
+    "duration": "03:33",
+    "members": true
+  },
+  {
+    "name": "Over to Nardah",
+    "id": 346,
+    "unlockDetails": "Unlocked in Nardah",
+    "duration": "04:28",
+    "members": true
+  },
+  {
+    "name": "Spirits of the Elid",
+    "id": 347,
+    "unlockDetails": "Unlocked during Spirits of the Elid",
+    "duration": "06:21",
+    "members": true
+  },
+  {
+    "name": "The Genie",
+    "id": 348,
+    "unlockDetails": "Unlocked in Genie's cave during the Spirits of the Elid  quest",
+    "duration": "04:22",
+    "members": true
+  },
+  {
+    "name": "Desert Heat",
+    "id": 349,
+    "unlockDetails": "Unlocked near Nardah",
+    "duration": "04:24",
+    "members": true
+  },
+  {
+    "name": "Title Fight",
+    "id": 350,
+    "unlockDetails": "Unlocked in the Champions' Challenge area",
+    "duration": "03:04",
+    "members": true
+  },
+  {
+    "name": "Victory is Mine",
+    "id": 351,
+    "unlockDetails": "Unlocked while fighting a champion in the Champions' Challenge minigame",
+    "duration": "03:09",
+    "members": true
+  },
+  {
+    "name": "Diango's Little Helpers",
+    "id": 352,
+    "unlockDetails": "Unlocked in Diango's Christmas Workshop",
+    "duration": "03:49",
+    "members": false
+  },
+  {
+    "name": "The Enchanter",
+    "id": 353,
+    "unlockDetails": "Unlocked in the Enchantment Chamber in the Mage Training Arena",
+    "duration": "04:11",
+    "members": true
+  },
+  {
+    "name": "Roll the Bones",
+    "id": 354,
+    "unlockDetails": "Unlocked in the Graveyard Chamber in the Mage Training Arena",
+    "duration": "03:40",
+    "members": true
+  },
+  {
+    "name": "Golden Touch",
+    "id": 355,
+    "unlockDetails": "Unlocked in the Alchemist Chamber in the Mage Training Arena",
+    "duration": "04:02",
+    "members": true
+  },
+  {
+    "name": "Mind over Matter",
+    "id": 356,
+    "unlockDetails": "Unlocked at the Telekinetic Theatre in the Mage Training Arena",
+    "duration": "03:32",
+    "members": true
+  },
+  {
+    "name": "In the Clink",
+    "id": 357,
+    "unlockDetails": "Unlocked in the Prison Pete Random event",
+    "duration": "03:56",
+    "members": false
+  },
+  {
+    "name": "Tiptoe",
+    "id": 358,
+    "unlockDetails": "Unlocks in Draynor Manor cellar.",
+    "duration": "04:41",
+    "members": false
+  },
+  {
+    "name": "Scape Hunter",
+    "id": 359,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:18",
+    "members": false
+  },
+  {
+    "name": "Eagles' Peak",
+    "id": 360,
+    "unlockDetails": "Unlocked during Eagle's Peak",
+    "duration": "04:13",
+    "members": true
+  },
+  {
+    "name": "Where Eagles Lair",
+    "id": 361,
+    "unlockDetails": "Unlocked during Eagles' Peak",
+    "duration": "03:47",
+    "members": true
+  },
+  {
+    "name": "Poles Apart",
+    "id": 362,
+    "unlockDetails": "Unlocked at the Rellekka Hunter area",
+    "duration": "04:39",
+    "members": true
+  },
+  {
+    "name": "Jungle Hunt",
+    "id": 363,
+    "unlockDetails": "Unlocked at the Feldip Hunter area and Myths' Guild",
+    "duration": "04:20",
+    "members": false
+  },
+  {
+    "name": "Joy of the Hunt",
+    "id": 364,
+    "unlockDetails": "Unlocked at the Feldip Hunter area",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "On the Wing",
+    "id": 365,
+    "unlockDetails": "Unlocked in the Piscatoris Hunter area, near the Falconer",
+    "duration": "04:12",
+    "members": true
+  },
+  {
+    "name": "Distant Land",
+    "id": 366,
+    "unlockDetails": "Unlocked at Burgh de Rott",
+    "duration": "06:01",
+    "members": true
+  },
+  {
+    "name": "Fangs for the Memory",
+    "id": 367,
+    "unlockDetails": "Unlocked during In Aid of the Myreque",
+    "duration": "03:21",
+    "members": true
+  },
+  {
+    "name": "Pharaoh's Tomb",
+    "id": 368,
+    "unlockDetails": "Unlocked at the Agility Pyramid",
+    "duration": "02:42",
+    "members": true
+  },
+  {
+    "name": "Land Down Under",
+    "id": 369,
+    "unlockDetails": "Unlocked in the caves under Miscellania",
+    "duration": "03:14",
+    "members": true
+  },
+  {
+    "name": "Meddling Kids",
+    "id": 370,
+    "unlockDetails": "Unlocked during Royal Trouble",
+    "duration": "03:19",
+    "members": true
+  },
+  {
+    "name": "Corridors of Power",
+    "id": 371,
+    "unlockDetails": "Unlocked in the Subterranean Village during Royal Trouble",
+    "duration": "05:23",
+    "members": true
+  },
+  {
+    "name": "Slither and Thither",
+    "id": 372,
+    "unlockDetails": "Unlocked during Royal Trouble",
+    "duration": "02:10",
+    "members": true
+  },
+  {
+    "name": "In the Brine",
+    "id": 373,
+    "unlockDetails": "Unlocked in Mos Le'Harmless",
+    "duration": "03:26",
+    "members": true
+  },
+  {
+    "name": "Cabin Fever",
+    "id": 374,
+    "unlockDetails": "Unlocked during the Cabin Fever  quest",
+    "duration": "02:55",
+    "members": true
+  },
+  {
+    "name": "Making Waves",
+    "id": 375,
+    "unlockDetails": "Unlocked at the Piscatoris Fishing Colony",
+    "duration": "03:23",
+    "members": true
+  },
+  {
+    "name": "Last Stand",
+    "id": 376,
+    "unlockDetails": "Unlocked during Swan Song  quest",
+    "duration": "01:57",
+    "members": true
+  },
+  {
+    "name": "Lament",
+    "id": 377,
+    "unlockDetails": "Unlocked in Enakhra's Temple",
+    "duration": "04:49",
+    "members": true
+  },
+  {
+    "name": "Home Sweet Home",
+    "id": 378,
+    "unlockDetails": "Unlocked inside a Player-owned house",
+    "duration": "05:21",
+    "members": true
+  },
+  {
+    "name": "Scape Home",
+    "id": 379,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "04:08",
+    "members": false
+  },
+  {
+    "name": "Dogs of War",
+    "id": 380,
+    "unlockDetails": "Unlocked in the first level of the Stronghold of Security",
+    "duration": "05:43",
+    "members": false
+  },
+  {
+    "name": "Food for Thought",
+    "id": 381,
+    "unlockDetails": "Unlocked in the Famine floor of the Stronghold of Security",
+    "duration": "04:36",
+    "members": false
+  },
+  {
+    "name": "Malady",
+    "id": 382,
+    "unlockDetails": "Unlocked in the Pestilence floor of the Stronghold of Security",
+    "duration": "04:35",
+    "members": false
+  },
+  {
+    "name": "Dance of Death",
+    "id": 383,
+    "unlockDetails": "Unlocked on the lowest floor of the Stronghold of Security",
+    "duration": "04:45",
+    "members": false
+  },
+  {
+    "name": "Storm Brew",
+    "id": 384,
+    "unlockDetails": "Unlocked at the Killerwatt plane",
+    "duration": "02:54",
+    "members": true
+  },
+  {
+    "name": "Wrath and Ruin",
+    "id": 385,
+    "unlockDetails": "Unlocked at the anger room in Tolna's rift",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "No Way Out",
+    "id": 386,
+    "unlockDetails": "Unlocked at the Hopelessness Room of Tolna's rift",
+    "duration": "05:14",
+    "members": true
+  },
+  {
+    "name": "Method of Madness",
+    "id": 387,
+    "unlockDetails": "Unlocked in Tolna's rift",
+    "duration": "02:26",
+    "members": true
+  },
+  {
+    "name": "Fear and Loathing",
+    "id": 388,
+    "unlockDetails": "Unlocked in Tolna's rift",
+    "duration": "05:02",
+    "members": true
+  },
+  {
+    "name": "The Mad Mole",
+    "id": 389,
+    "unlockDetails": "Unlocked at the Mole Lair",
+    "duration": "03:39",
+    "members": true
+  },
+  {
+    "name": "Davy Jones' Locker",
+    "id": 390,
+    "unlockDetails": "Unlocked in the Mogre Camp",
+    "duration": "03:05",
+    "members": true
+  },
+  {
+    "name": "Chickened Out",
+    "id": 391,
+    "unlockDetails": "Unlocked in the Evil Chicken's Lair during the Recipe for Disaster  quest",
+    "duration": "03:02",
+    "members": true
+  },
+  {
+    "name": "Mastermindless",
+    "id": 392,
+    "unlockDetails": "Unlocked during Recipe for Disaster  quest",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Too Many Cooks...",
+    "id": 393,
+    "unlockDetails": "Unlocked during the goblin sub-quest in Recipe for Disaster  and during 2020 Christmas Event",
+    "duration": "03:24",
+    "members": false
+  },
+  {
+    "name": "Chef Surprise",
+    "id": 394,
+    "unlockDetails": "Unlocked in the Lumbridge Castle Dining Hall during the Recipe for Disaster  quest",
+    "duration": "02:36",
+    "members": true
+  },
+  {
+    "name": "Null and Void",
+    "id": 395,
+    "unlockDetails": "Unlocked at the Void Knight's[sic] Outpost",
+    "duration": "03:36",
+    "members": true
+  },
+  {
+    "name": "Pest Control",
+    "id": 396,
+    "unlockDetails": "Unlocked in the Pest Control Minigame",
+    "duration": "04:23",
+    "members": true
+  },
+  {
+    "name": "Tomb Raider",
+    "id": 397,
+    "unlockDetails": "Unlocked in Pyramid Plunder",
+    "duration": "05:33",
+    "members": true
+  },
+  {
+    "name": "Funny Bunnies",
+    "id": 398,
+    "unlockDetails": "Unlocked at any Easter event after 2013",
+    "duration": "03:36",
+    "members": false
+  },
+  {
+    "name": "Everlasting Fire",
+    "id": 399,
+    "unlockDetails": "Unlocked in the Wilderness",
+    "duration": "03:48",
+    "members": false
+  },
+  {
+    "name": "Distillery Hilarity",
+    "id": 400,
+    "unlockDetails": "Unlocked during the Trouble Brewing minigame",
+    "duration": "04:13",
+    "members": true
+  },
+  {
+    "name": "Trouble Brewing",
+    "id": 401,
+    "unlockDetails": "Unlocked during the Trouble Brewing minigame",
+    "duration": "02:39",
+    "members": true
+  },
+  {
+    "name": "Head to Head",
+    "id": 402,
+    "unlockDetails": "Unlocked during Evil Twin random event",
+    "duration": "03:23",
+    "members": false
+  },
+  {
+    "name": "Pinball Wizard",
+    "id": 403,
+    "unlockDetails": "Unlocked in the Pinball Random Event",
+    "duration": "04:07",
+    "members": false
+  },
+  {
+    "name": "Life's a Beach!",
+    "id": 404,
+    "unlockDetails": "Unlocked south Mos Le'Harmless",
+    "duration": "04:39",
+    "members": true
+  },
+  {
+    "name": "Little Cave of Horrors",
+    "id": 405,
+    "unlockDetails": "Unlocked at the Mos Le'Harmless Cave",
+    "duration": "02:56",
+    "members": true
+  },
+  {
+    "name": "The Depths",
+    "id": 406,
+    "unlockDetails": "Unlocked during the Contact!  quest",
+    "duration": "05:09",
+    "members": true
+  },
+  {
+    "name": "Labyrinth",
+    "id": 407,
+    "unlockDetails": "Unlocked in the Sophanem Dungeon",
+    "duration": "03:56",
+    "members": true
+  },
+  {
+    "name": "Beetle Juice",
+    "id": 408,
+    "unlockDetails": "Unlocked during the Contact!  quest",
+    "duration": "02:26",
+    "members": true
+  },
+  {
+    "name": "Back to Life",
+    "id": 409,
+    "unlockDetails": "Unlocked in Sophanem. After the Contact! quest, it replaces the City of the Dead music track.",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Waking Dream",
+    "id": 410,
+    "unlockDetails": "Unlocked during Lunar Diplomacy",
+    "duration": "03:16",
+    "members": true
+  },
+  {
+    "name": "Dreamstate",
+    "id": 411,
+    "unlockDetails": "Unlocked in the Dream World of Lunar Diplomacy",
+    "duration": "04:16",
+    "members": true
+  },
+  {
+    "name": "The Lunar Isle",
+    "id": 412,
+    "unlockDetails": "Unlocked in Lunar Isle",
+    "duration": "03:37",
+    "members": true
+  },
+  {
+    "name": "Isle of Everywhere",
+    "id": 413,
+    "unlockDetails": "Unlocked in the East coast of Lunar Isle",
+    "duration": "02:46",
+    "members": true
+  },
+  {
+    "name": "Way of the Enchanter",
+    "id": 414,
+    "unlockDetails": "Unlocked in the Lunar Isle mine",
+    "duration": "03:34",
+    "members": true
+  },
+  {
+    "name": "The Galleon",
+    "id": 415,
+    "unlockDetails": "Unlocked during the Lunar Diplomacy  quest",
+    "duration": "03:52",
+    "members": true
+  },
+  {
+    "name": "Warriors' Guild",
+    "id": 416,
+    "unlockDetails": "Unlocked at the Warriors' Guild",
+    "duration": "03:10",
+    "members": true
+  },
+  {
+    "name": "Kingdom",
+    "id": 417,
+    "unlockDetails": "Unlocked at the Death Plateau",
+    "duration": "05:19",
+    "members": true
+  },
+  {
+    "name": "Tomorrow",
+    "id": 418,
+    "unlockDetails": "Unlocks at the coastline south of Port Sarim.",
+    "duration": "02:36",
+    "members": false
+  },
+  {
+    "name": "H.A.M. Fisted",
+    "id": 419,
+    "unlockDetails": "Unlocked during the Death to the Dorgeshuun  quest",
+    "duration": "04:04",
+    "members": true
+  },
+  {
+    "name": "Sigmund's Showdown",
+    "id": 420,
+    "unlockDetails": "Unlocked during Death to the Dorgeshuun",
+    "duration": "03:33",
+    "members": true
+  },
+  {
+    "name": "We are the Fairies",
+    "id": 421,
+    "unlockDetails": "Unlocked at the Cosmic entity's plane",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Dimension X",
+    "id": 422,
+    "unlockDetails": "Unlocked in the Gorak Plane",
+    "duration": "02:30",
+    "members": true
+  },
+  {
+    "name": "All's Fairy in Love & War",
+    "id": 423,
+    "unlockDetails": "Unlocked at the Fairy Resistance Hideout during the Fairy Tale II - Cure a Queen quest",
+    "duration": "03:28",
+    "members": true
+  },
+  {
+    "name": "Brimstail's Scales",
+    "id": 424,
+    "unlockDetails": "Unlocked at Brimstail's cave",
+    "duration": "03:18",
+    "members": true
+  },
+  {
+    "name": "Lament of Meiyerditch",
+    "id": 425,
+    "unlockDetails": "Unlocked during the Darkness of Hallowvale  quest",
+    "duration": "05:43",
+    "members": true
+  },
+  {
+    "name": "The Last Shanty",
+    "id": 426,
+    "unlockDetails": "Unlocked in Meiyerditch",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Night of the Vampyre",
+    "id": 427,
+    "unlockDetails": "Unlocked during Darkness of Hallowvale",
+    "duration": "06:04",
+    "members": true
+  },
+  {
+    "name": "My Arm's Journey",
+    "id": 428,
+    "unlockDetails": "Unlocked during My Arm's Big Adventure",
+    "duration": "02:40",
+    "members": true
+  },
+  {
+    "name": "Roc and Roll",
+    "id": 429,
+    "unlockDetails": "Unlocked during the fight against the Giant Roc",
+    "duration": "02:22",
+    "members": true
+  },
+  {
+    "name": "The Mollusc Menace",
+    "id": 430,
+    "unlockDetails": "Unlocked during The Slug Menace",
+    "duration": "03:11",
+    "members": true
+  },
+  {
+    "name": "Slug a Bug Ball",
+    "id": 431,
+    "unlockDetails": "Unlocked during The Slug Menace",
+    "duration": "03:25",
+    "members": true
+  },
+  {
+    "name": "Prime Time",
+    "id": 432,
+    "unlockDetails": "Unlocked during Elemental Workshop II",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Floating Free",
+    "id": 433,
+    "unlockDetails": "Unlocked at Entrana during Enlightened Journey",
+    "duration": "03:18",
+    "members": true
+  },
+  {
+    "name": "High Spirits",
+    "id": 434,
+    "unlockDetails": "Unlocked during the Halloween event in Draynor Village",
+    "duration": "03:40",
+    "members": false
+  },
+  {
+    "name": "Major Miner",
+    "id": 435,
+    "unlockDetails": "Unlocked in the Jatizso mine",
+    "duration": "03:38",
+    "members": true
+  },
+  {
+    "name": "Jester Minute",
+    "id": 436,
+    "unlockDetails": "Unlocked during Fremennik Isles",
+    "duration": "03:23",
+    "members": true
+  },
+  {
+    "name": "Norse Code",
+    "id": 437,
+    "unlockDetails": "Unlocked in Jatizso",
+    "duration": "03:58",
+    "members": true
+  },
+  {
+    "name": "Volcanic Vikings",
+    "id": 438,
+    "unlockDetails": "Unlocked in Neitiznot",
+    "duration": "03:22",
+    "members": true
+  },
+  {
+    "name": "Island of the Trolls",
+    "id": 439,
+    "unlockDetails": "Unlocked north of Neitiznot and Jatizso",
+    "duration": "04:28",
+    "members": true
+  },
+  {
+    "name": "Ogre the Top",
+    "id": 440,
+    "unlockDetails": "Unlocked during The Fremennik Isles , during the fight against the Ice Troll King",
+    "duration": "03:28",
+    "members": true
+  },
+  {
+    "name": "Rising Damp",
+    "id": 441,
+    "unlockDetails": "Unlocked in the Brine Rat Cavern",
+    "duration": "04:29",
+    "members": true
+  },
+  {
+    "name": "Work, Work, Work",
+    "id": 442,
+    "unlockDetails": "Unlocked during the Tower of Life  quest.",
+    "duration": "05:15",
+    "members": true
+  },
+  {
+    "name": "Magic, Magic, Magic",
+    "id": 443,
+    "unlockDetails": "Unlocked during Tower of Life",
+    "duration": "04:49",
+    "members": true
+  },
+  {
+    "name": "Creature Cruelty",
+    "id": 444,
+    "unlockDetails": "Unlocked during the Tower of Life  quest",
+    "duration": "04:48",
+    "members": true
+  },
+  {
+    "name": "Mutant Medley",
+    "id": 445,
+    "unlockDetails": "Unlocked during Creature Creation minigame",
+    "duration": "03:30",
+    "members": true
+  },
+  {
+    "name": "Dorgeshuun City",
+    "id": 446,
+    "unlockDetails": "Unlocked at Dorgesh-Kaan",
+    "duration": "04:32",
+    "members": true
+  },
+  {
+    "name": "Dorgeshuun Deep",
+    "id": 447,
+    "unlockDetails": "Unlocked in the Dorgesh-Kaan South Dungeon",
+    "duration": "04:26",
+    "members": true
+  },
+  {
+    "name": "Assault and Battery",
+    "id": 448,
+    "unlockDetails": "Unlocked during the Barbarian Assault minigame",
+    "duration": "03:43",
+    "members": true
+  },
+  {
+    "name": "Pirates of Penance",
+    "id": 449,
+    "unlockDetails": "Unlocked during wave 10 of Barbarian Assault",
+    "duration": "03:58",
+    "members": true
+  },
+  {
+    "name": "Jungle Island Xmas",
+    "id": 450,
+    "unlockDetails": "Unlocked during Christmas events",
+    "duration": "03:01",
+    "members": false
+  },
+  {
+    "name": "Sea Shanty Xmas",
+    "id": 451,
+    "unlockDetails": "Unlocked at a Christmas event.",
+    "duration": "01:50",
+    "members": false
+  },
+  {
+    "name": "Jungle Bells",
+    "id": 452,
+    "unlockDetails": "Unlocked during Christmas events",
+    "duration": "03:50",
+    "members": false
+  },
+  {
+    "name": "Garden of Spring",
+    "id": 453,
+    "unlockDetails": "Unlocked in the Sorceress' Garden minigame",
+    "duration": "03:00",
+    "members": true
+  },
+  {
+    "name": "Garden of Summer",
+    "id": 454,
+    "unlockDetails": "Unlocked in the Sorceress' Garden minigame",
+    "duration": "03:00",
+    "members": true
+  },
+  {
+    "name": "Garden of Autumn",
+    "id": 455,
+    "unlockDetails": "Unlocked in the Sorceress' Garden minigame",
+    "duration": "03:28",
+    "members": true
+  },
+  {
+    "name": "Garden of Winter",
+    "id": 456,
+    "unlockDetails": "Unlocked in the Sorceress' Garden minigame",
+    "duration": "03:28",
+    "members": true
+  },
+  {
+    "name": "Have an Ice Day",
+    "id": 457,
+    "unlockDetails": "Unlocked during the Cold War  quest",
+    "duration": "04:50",
+    "members": true
+  },
+  {
+    "name": "Espionage",
+    "id": 458,
+    "unlockDetails": "Unlocked during the Cold War  quest",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "Zombiism",
+    "id": 459,
+    "unlockDetails": "Unlocked on Harmony Island",
+    "duration": "03:48",
+    "members": true
+  },
+  {
+    "name": "Alternative Root",
+    "id": 460,
+    "unlockDetails": "Unlocked in the Tunnel of Chaos after completion of What Lies Below",
+    "duration": "03:29",
+    "members": true
+  },
+  {
+    "name": "Undead Dungeon",
+    "id": 461,
+    "unlockDetails": "Unlocked in Tarn's Lair",
+    "duration": "03:17",
+    "members": true
+  },
+  {
+    "name": "Easter Jig",
+    "id": 462,
+    "unlockDetails": "Unlocked during the 2014 Easter event",
+    "duration": "03:56",
+    "members": false
+  },
+  {
+    "name": "H.A.M. Attack",
+    "id": 463,
+    "unlockDetails": "Unlocked during the Another Slice of H.A.M.  quest",
+    "duration": "04:34",
+    "members": true
+  },
+  {
+    "name": "Slice of Silent Movie",
+    "id": 464,
+    "unlockDetails": "Unlocked during Another Slice of H.A.M.",
+    "duration": "03:24",
+    "members": true
+  },
+  {
+    "name": "H.A.M. and Seek",
+    "id": 465,
+    "unlockDetails": "Unlocked during the Another Slice of H.A.M.  quest",
+    "duration": "04:03",
+    "members": true
+  },
+  {
+    "name": "Slice of Station",
+    "id": 466,
+    "unlockDetails": "Unlocked at the Dorgesh-Kaan–Keldagrim train system station",
+    "duration": "03:25",
+    "members": true
+  },
+  {
+    "name": "Looking Back",
+    "id": 467,
+    "unlockDetails": "Unlocked in the Varrock Museum",
+    "duration": "03:23",
+    "members": false
+  },
+  {
+    "name": "Barb Wire",
+    "id": 468,
+    "unlockDetails": "Unlocked north of Baxtorian Falls, in the Ancient Cavern",
+    "duration": "03:32",
+    "members": true
+  },
+  {
+    "name": "Impetuous",
+    "id": 469,
+    "unlockDetails": "Unlocked in Puro-Puro",
+    "duration": "03:21",
+    "members": true
+  },
+  {
+    "name": "School's Out",
+    "id": 470,
+    "unlockDetails": "Unlocked during the Surprise Exam random event",
+    "duration": "03:15",
+    "members": false
+  },
+  {
+    "name": "Down and Out",
+    "id": 471,
+    "unlockDetails": "Unlocked on Lunar Isle during the Dream Mentor  quest",
+    "duration": "02:15",
+    "members": true
+  },
+  {
+    "name": "On the Up",
+    "id": 472,
+    "unlockDetails": "Unlocked during Dream Mentor",
+    "duration": "02:17",
+    "members": true
+  },
+  {
+    "name": "Inadequacy",
+    "id": 473,
+    "unlockDetails": "Unlocked during Dream Mentor",
+    "duration": "03:31",
+    "members": true
+  },
+  {
+    "name": "Illusive",
+    "id": 474,
+    "unlockDetails": "Unlocked in Dream World during Dream Mentor , also could be unlocked during the 2021 Halloween event",
+    "duration": "04:08",
+    "members": true
+  },
+  {
+    "name": "Everlasting",
+    "id": 475,
+    "unlockDetails": "Unlocked in the Dream World during Dream Mentor",
+    "duration": "02:44",
+    "members": true
+  },
+  {
+    "name": "Untouchable",
+    "id": 476,
+    "unlockDetails": "Unlocked during Dream Mentor",
+    "duration": "03:14",
+    "members": true
+  },
+  {
+    "name": "Mouse Trap",
+    "id": 477,
+    "unlockDetails": "Unlocked during Grim Tales",
+    "duration": "03:43",
+    "members": true
+  },
+  {
+    "name": "Fe Fi Fo Fum",
+    "id": 478,
+    "unlockDetails": "Unlocked top of the beanstalk during Grim Tales",
+    "duration": "03:12",
+    "members": true
+  },
+  {
+    "name": "The Maze",
+    "id": 479,
+    "unlockDetails": "Unlocked at Melzar's Maze",
+    "duration": "03:35",
+    "members": false
+  },
+  {
+    "name": "Knightmare",
+    "id": 480,
+    "unlockDetails": "Unlocked at the Black Knight's[sic] Fortress",
+    "duration": "03:04",
+    "members": false
+  },
+  {
+    "name": "Lore and Order",
+    "id": 481,
+    "unlockDetails": "Unlocked during King's Ransom",
+    "duration": "02:50",
+    "members": true
+  },
+  {
+    "name": "Armageddon",
+    "id": 482,
+    "unlockDetails": "Unlocked in the God Wars Dungeon",
+    "duration": "04:05",
+    "members": true
+  },
+  {
+    "name": "Armadyl Alliance",
+    "id": 483,
+    "unlockDetails": "Unlocked in the God Wars Dungeon",
+    "duration": "03:00",
+    "members": true
+  },
+  {
+    "name": "Bandos Battalion",
+    "id": 484,
+    "unlockDetails": "Unlocked in the God Wars Dungeon",
+    "duration": "03:10",
+    "members": true
+  },
+  {
+    "name": "Strength of Saradomin",
+    "id": 485,
+    "unlockDetails": "Unlocked at the Saradominist camp in the God Wars Dungeon",
+    "duration": "03:29",
+    "members": true
+  },
+  {
+    "name": "Zamorak Zoo",
+    "id": 486,
+    "unlockDetails": "Unlocked in God Wars Dungeon",
+    "duration": "03:01",
+    "members": true
+  },
+  {
+    "name": "Gnome Village Party",
+    "id": 487,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:18",
+    "members": false
+  },
+  {
+    "name": "Beneath the Stronghold",
+    "id": 488,
+    "unlockDetails": "Unlocked in the Gnome Stronghold Slayer Cave",
+    "duration": "02:49",
+    "members": true
+  },
+  {
+    "name": "Troubled Waters",
+    "id": 489,
+    "unlockDetails": "Unlocked at the Kraken Cove",
+    "duration": "03:21",
+    "members": true
+  },
+  {
+    "name": "Nether Realm",
+    "id": 490,
+    "unlockDetails": "Unlocked in the metal dragon slayer area in Brimhaven Dungeon.",
+    "duration": "04:16",
+    "members": true
+  },
+  {
+    "name": "Scorpia Dances",
+    "id": 491,
+    "unlockDetails": "Unlocked in the cave beneath the Scorpion Pit, where Scorpia resides",
+    "duration": "05:24",
+    "members": true
+  },
+  {
+    "name": "Devils May Care",
+    "id": 492,
+    "unlockDetails": "Unlocked in the Smoke Devil Dungeon.",
+    "duration": "03:41",
+    "members": true
+  },
+  {
+    "name": "Pick & Shovel",
+    "id": 493,
+    "unlockDetails": "Unlocked in the Motherlode Mine",
+    "duration": "03:13",
+    "members": true
+  },
+  {
+    "name": "Clan Wars",
+    "id": 494,
+    "unlockDetails": "Unlocked in a Clan Wars arena. (Random between this song and Warpath, re-enter to unlock both)",
+    "duration": "05:30",
+    "members": false
+  },
+  {
+    "name": "Warpath",
+    "id": 495,
+    "unlockDetails": "Unlocked in a Clan Wars arena. (Random between this song and Clan Wars Song, re-enter to unlock both)",
+    "duration": "04:44",
+    "members": false
+  },
+  {
+    "name": "Grimly Fiendish",
+    "id": 496,
+    "unlockDetails": "Unlocked during the 2014 Halloween event",
+    "duration": "02:27",
+    "members": false
+  },
+  {
+    "name": "Shining Spirit",
+    "id": 497,
+    "unlockDetails": "Unlocked at the Corporeal Beast's cave",
+    "duration": "05:06",
+    "members": true
+  },
+  {
+    "name": "Bane",
+    "id": 498,
+    "unlockDetails": "Unlocked in the Corporeal Beast boss room",
+    "duration": "08:20",
+    "members": true
+  },
+  {
+    "name": "Coil",
+    "id": 499,
+    "unlockDetails": "Unlocked during the fight with Zulrah (Can be unlocked while spectating using fairy ring code DLR)",
+    "duration": "04:52",
+    "members": true
+  },
+  {
+    "name": "Thrall of the Serpent",
+    "id": 500,
+    "unlockDetails": "Unlocked at Zul-Andra",
+    "duration": "05:51",
+    "members": true
+  },
+  {
+    "name": "The Trade Parade",
+    "id": 501,
+    "unlockDetails": "Unlocks at the Grand Exchange.",
+    "duration": "04:31",
+    "members": false
+  },
+  {
+    "name": "Bunny's Sugar Rush",
+    "id": 502,
+    "unlockDetails": "Unlocked during the 2015 Easter Event",
+    "duration": "04:08",
+    "members": false
+  },
+  {
+    "name": "Maws, Jaws & Claws",
+    "id": 503,
+    "unlockDetails": "Unlocked during the fight with Cerberus in her lair",
+    "duration": "05:40",
+    "members": true
+  },
+  {
+    "name": "That Sullen Hall",
+    "id": 504,
+    "unlockDetails": "Unlocked in Cerberus's Lair",
+    "duration": "06:20",
+    "members": true
+  },
+  {
+    "name": "Invader",
+    "id": 505,
+    "unlockDetails": "Unlocked in the Abyssal Sire's chamber within the Abyssal Nexus",
+    "duration": "06:37",
+    "members": true
+  },
+  {
+    "name": "Dies Irae",
+    "id": 506,
+    "unlockDetails": "Unlocked during in the 2015 Halloween event",
+    "duration": "05:26",
+    "members": false
+  },
+  {
+    "name": "Nox Irae",
+    "id": 507,
+    "unlockDetails": "Unlocked during in the 2015 Halloween event",
+    "duration": "03:11",
+    "members": false
+  },
+  {
+    "name": "Kourend the Magnificent",
+    "id": 508,
+    "unlockDetails": "Unlocked upon arrival to Port Piscarilius",
+    "duration": "04:48",
+    "members": true
+  },
+  {
+    "name": "Arcane",
+    "id": 509,
+    "unlockDetails": "Unlocked in Arceuus",
+    "duration": "02:47",
+    "members": true
+  },
+  {
+    "name": "Country Jig",
+    "id": 510,
+    "unlockDetails": "Unlocked in Hosidius",
+    "duration": "02:57",
+    "members": true
+  },
+  {
+    "name": "Dwarven Domain",
+    "id": 511,
+    "unlockDetails": "Unlocked in Lovakengj",
+    "duration": "03:13",
+    "members": true
+  },
+  {
+    "name": "Down by the Docks",
+    "id": 512,
+    "unlockDetails": "Unlocked in Port Piscarilius",
+    "duration": "03:12",
+    "members": true
+  },
+  {
+    "name": "The Militia",
+    "id": 513,
+    "unlockDetails": "Unlocked in Shayzien",
+    "duration": "03:47",
+    "members": true
+  },
+  {
+    "name": "The Forlorn Homestead",
+    "id": 514,
+    "unlockDetails": "Unlocked near the magic trees in Hosidius",
+    "duration": "06:05",
+    "members": true
+  },
+  {
+    "name": "Soul Fall",
+    "id": 515,
+    "unlockDetails": "Unlocked on the path towards the Soul Altar in Arceuus",
+    "duration": "03:58",
+    "members": true
+  },
+  {
+    "name": "Rugged Terrain",
+    "id": 516,
+    "unlockDetails": "Unlocked at the Graveyard of Heroes in Shayzien",
+    "duration": "04:07",
+    "members": true
+  },
+  {
+    "name": "Monkey Trouble",
+    "id": 517,
+    "unlockDetails": "Unlocked during Monkey Madness II",
+    "duration": "05:20",
+    "members": true
+  },
+  {
+    "name": "Monkey Sadness",
+    "id": 518,
+    "unlockDetails": "Unlocked during Monkey Madness II",
+    "duration": "06:09",
+    "members": true
+  },
+  {
+    "name": "Monkey Business",
+    "id": 519,
+    "unlockDetails": "Unlocked during Monkey Madness II",
+    "duration": "05:24",
+    "members": true
+  },
+  {
+    "name": "Monkey Badness",
+    "id": 520,
+    "unlockDetails": "Unlocked during Monkey Madness II",
+    "duration": "05:02",
+    "members": true
+  },
+  {
+    "name": "Scape Ape",
+    "id": 521,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:05",
+    "members": false
+  },
+  {
+    "name": "Darkly Altared",
+    "id": 522,
+    "unlockDetails": "Unlocked during the fight with Skotizo",
+    "duration": "04:44",
+    "members": true
+  },
+  {
+    "name": "Last Man Standing",
+    "id": 523,
+    "unlockDetails": "Unlocked in a Last Man Standing game",
+    "duration": "06:06",
+    "members": false
+  },
+  {
+    "name": "The Doors of Dinh",
+    "id": 524,
+    "unlockDetails": "Unlocked at the Wintertodt Camp",
+    "duration": "05:10",
+    "members": true
+  },
+  {
+    "name": "Ice and Fire",
+    "id": 525,
+    "unlockDetails": "Unlocked in the Wintertodt's prison",
+    "duration": "03:24",
+    "members": true
+  },
+  {
+    "name": "Altar Ego",
+    "id": 526,
+    "unlockDetails": "Unlocked in the Ourania Cave",
+    "duration": "04:59",
+    "members": true
+  },
+  {
+    "name": "March of the Shayzien",
+    "id": 527,
+    "unlockDetails": "Unlocked at the Shayziens' Wall",
+    "duration": "04:37",
+    "members": true
+  },
+  {
+    "name": "Lower Depths",
+    "id": 528,
+    "unlockDetails": "Unlocked in the second sub-level of the Chambers of Xeric",
+    "duration": "07:43",
+    "members": true
+  },
+  {
+    "name": "The Desolate Mage",
+    "id": 529,
+    "unlockDetails": "Unlocked upon reaching Mount Quidamortem's summit",
+    "duration": "06:39",
+    "members": true
+  },
+  {
+    "name": "Fire in the Deep",
+    "id": 530,
+    "unlockDetails": "Unlocked during the battle with the Great Olm in the Chambers of Xeric",
+    "duration": "06:22",
+    "members": true
+  },
+  {
+    "name": "Upper Depths",
+    "id": 531,
+    "unlockDetails": "Unlocked upon entering the Chambers of Xeric",
+    "duration": "04:09",
+    "members": true
+  },
+  {
+    "name": "Ascent",
+    "id": 532,
+    "unlockDetails": "Unlocked at Mount Quidamortem",
+    "duration": "06:48",
+    "members": true
+  },
+  {
+    "name": "Darkness in the Depths",
+    "id": 533,
+    "unlockDetails": "Unlocked in the Chasm of Fire",
+    "duration": "05:06",
+    "members": true
+  },
+  {
+    "name": "Inferno",
+    "id": 534,
+    "unlockDetails": "Unlocked in the Inferno",
+    "duration": "04:57",
+    "members": true
+  },
+  {
+    "name": "Mor Ul Rek",
+    "id": 535,
+    "unlockDetails": "Unlocked in the Mor Ul Rek inner city.",
+    "duration": "04:31",
+    "members": true
+  },
+  {
+    "name": "Lagoon",
+    "id": 536,
+    "unlockDetails": "Unlocked underwater beneath Fossil Island",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Lava is Mine",
+    "id": 537,
+    "unlockDetails": "Unlocked inside the Volcanic Mine on Fossil Island",
+    "duration": "03:59",
+    "members": true
+  },
+  {
+    "name": "Fossilised",
+    "id": 538,
+    "unlockDetails": "Unlocked within the Wyvern Cave on Fossil Island",
+    "duration": "03:41",
+    "members": true
+  },
+  {
+    "name": "Preserved",
+    "id": 539,
+    "unlockDetails": "Unlocked at the Fossil Island Volcano",
+    "duration": "02:03",
+    "members": true
+  },
+  {
+    "name": "Preservation",
+    "id": 540,
+    "unlockDetails": "Unlocked upon arriving at Fossil Island",
+    "duration": "02:05",
+    "members": true
+  },
+  {
+    "name": "Tempest",
+    "id": 541,
+    "unlockDetails": "Unlocked during the fight with the Grotesque Guardians",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "Revenants",
+    "id": 542,
+    "unlockDetails": "Unlocked in the Revenant Caves",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "On the Shore",
+    "id": 543,
+    "unlockDetails": "Unlocked in Corsair Cove",
+    "duration": "05:02",
+    "members": false
+  },
+  {
+    "name": "Land of Snow",
+    "id": 544,
+    "unlockDetails": "Unlocked during the 2017 Christmas event",
+    "duration": "02:41",
+    "members": false
+  },
+  {
+    "name": "Winter Funfair",
+    "id": 545,
+    "unlockDetails": "Unlocked during the 2017 Christmas event",
+    "duration": "04:18",
+    "members": false
+  },
+  {
+    "name": "Relics",
+    "id": 546,
+    "unlockDetails": "Unlocked in the Dragonkin laboratory on Crandor during Dragon Slayer II",
+    "duration": "04:20",
+    "members": true
+  },
+  {
+    "name": "The Dragon Slayer",
+    "id": 547,
+    "unlockDetails": "Unlocked during the fight with Galvek during Dragon Slayer II",
+    "duration": "07:46",
+    "members": true
+  },
+  {
+    "name": "Mythical",
+    "id": 548,
+    "unlockDetails": "Unlocked in the Myths' Guild",
+    "duration": "04:00",
+    "members": true
+  },
+  {
+    "name": "On Thin Ice",
+    "id": 549,
+    "unlockDetails": "Unlocked during fight with Vorkath",
+    "duration": "05:02",
+    "members": true
+  },
+  {
+    "name": "The Walking Dead",
+    "id": 550,
+    "unlockDetails": "Unlocked in the Shayzien Crypts",
+    "duration": "03:54",
+    "members": true
+  },
+  {
+    "name": "The Forsaken",
+    "id": 551,
+    "unlockDetails": "Unlocked in the Lithkren Vault",
+    "duration": "05:37",
+    "members": true
+  },
+  {
+    "name": "Oncoming Foe",
+    "id": 552,
+    "unlockDetails": "Unlocked during the Zorgoth's assault during Dragon Slayer II",
+    "duration": "05:02",
+    "members": true
+  },
+  {
+    "name": "Lucid Dream",
+    "id": 553,
+    "unlockDetails": "Unlocked while in Bob's Dream World",
+    "duration": "03:19",
+    "members": true
+  },
+  {
+    "name": "Lucid Nightmare",
+    "id": 554,
+    "unlockDetails": "Unlocked during the fight with Robert the Strong",
+    "duration": "02:34",
+    "members": true
+  },
+  {
+    "name": "Museum Medley",
+    "id": 555,
+    "unlockDetails": "Unlocked in the Old School Museum (alternatively, by completing the 20th Anniversary event or 2021 Birthday event)",
+    "duration": "11:10",
+    "members": false
+  },
+  {
+    "name": "Scape Five",
+    "id": 556,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "07:08",
+    "members": false
+  },
+  {
+    "name": "Roots and Flutes",
+    "id": 557,
+    "unlockDetails": "Unlocked while fighting Bryophyta",
+    "duration": "04:36",
+    "members": false
+  },
+  {
+    "name": "Conspiracy",
+    "id": 558,
+    "unlockDetails": "Unlocked during A Taste of Hope",
+    "duration": "02:08",
+    "members": true
+  },
+  {
+    "name": "Bait",
+    "id": 559,
+    "unlockDetails": "Unlocked during A Taste of Hope",
+    "duration": "03:23",
+    "members": true
+  },
+  {
+    "name": "Vanescula",
+    "id": 560,
+    "unlockDetails": "Unlocked during A Taste of Hope",
+    "duration": "01:50",
+    "members": true
+  },
+  {
+    "name": "Bloodbath",
+    "id": 561,
+    "unlockDetails": "Unlocked at Slepe",
+    "duration": "02:49",
+    "members": true
+  },
+  {
+    "name": "Welcome to the Theatre",
+    "id": 562,
+    "unlockDetails": "Unlocked at Ver Sinhaza",
+    "duration": "05:00",
+    "members": true
+  },
+  {
+    "name": "A Taste of Hope",
+    "id": 563,
+    "unlockDetails": "Unlocked during A Taste of Hope",
+    "duration": "06:25",
+    "members": true
+  },
+  {
+    "name": "The Maiden's Sorrow",
+    "id": 564,
+    "unlockDetails": "Unlocked in The Maiden of Sugadinti's arena in the Theatre of Blood",
+    "duration": "08:51",
+    "members": true
+  },
+  {
+    "name": "The Maiden's Anger",
+    "id": 565,
+    "unlockDetails": "Unlocked during the fight with The Maiden of Sugadinti",
+    "duration": "06:50",
+    "members": true
+  },
+  {
+    "name": "Welcome to my Nightmare",
+    "id": 566,
+    "unlockDetails": "Unlocked in the Pestilent Bloat's arena in the Theatre of Blood",
+    "duration": "07:32",
+    "members": true
+  },
+  {
+    "name": "The Nightmare Continues",
+    "id": 567,
+    "unlockDetails": "Unlocked during the fight with the Pestilent Bloat",
+    "duration": "07:25",
+    "members": true
+  },
+  {
+    "name": "The Dark Beast Sotetseg",
+    "id": 568,
+    "unlockDetails": "Unlocked in Sotetseg's arena in the Theatre of Blood",
+    "duration": "06:02",
+    "members": true
+  },
+  {
+    "name": "Power of the Shadow Realm",
+    "id": 569,
+    "unlockDetails": "Unlocked during the fight with Sotetseg",
+    "duration": "07:37",
+    "members": true
+  },
+  {
+    "name": "It's not over 'til...",
+    "id": 570,
+    "unlockDetails": "Unlocked in Verzik Vitur's throne room",
+    "duration": "04:19",
+    "members": true
+  },
+  {
+    "name": "The Fat Lady Sings",
+    "id": 571,
+    "unlockDetails": "Unlocked during the battle with Verzik Vitur",
+    "duration": "06:50",
+    "members": true
+  },
+  {
+    "name": "The Curtain Closes",
+    "id": 572,
+    "unlockDetails": "Unlocked upon the defeat of Verzik Vitur",
+    "duration": "07:08",
+    "members": true
+  },
+  {
+    "name": "Dance of the Nylocas",
+    "id": 573,
+    "unlockDetails": "Unlocked in the Nylocas' nest in the Theatre of Blood",
+    "duration": "05:55",
+    "members": true
+  },
+  {
+    "name": "Arachnids of Vampyrium",
+    "id": 574,
+    "unlockDetails": "Unlocked during the fight in the Nylocas' nest in the Theatre of Blood",
+    "duration": "06:54",
+    "members": true
+  },
+  {
+    "name": "Predator Xarpus",
+    "id": 575,
+    "unlockDetails": "Unlocked in Xarpus' arena in the Theatre of Blood",
+    "duration": "05:06",
+    "members": true
+  },
+  {
+    "name": "Last King of the Yarasa",
+    "id": 576,
+    "unlockDetails": "Unlocked during the fight with Xarpus",
+    "duration": "07:03",
+    "members": true
+  },
+  {
+    "name": "Barren Land",
+    "id": 577,
+    "unlockDetails": "Unlocked during the Making Friends with My Arm  quest",
+    "duration": "05:20",
+    "members": true
+  },
+  {
+    "name": "Lumbering",
+    "id": 578,
+    "unlockDetails": "Unlocked during the Making Friends with My Arm  quest",
+    "duration": "06:16",
+    "members": true
+  },
+  {
+    "name": "Troll Shuffle",
+    "id": 579,
+    "unlockDetails": "Unlocked during the Making Friends with My Arm  quest",
+    "duration": "05:52",
+    "members": true
+  },
+  {
+    "name": "Snowflake & My Arm",
+    "id": 580,
+    "unlockDetails": "Unlocked during the Making Friends with My Arm  quest",
+    "duration": "01:17",
+    "members": true
+  },
+  {
+    "name": "Mother Ruckus",
+    "id": 581,
+    "unlockDetails": "Unlocked during the Making Friends with My Arm  quest",
+    "duration": "04:21",
+    "members": true
+  },
+  {
+    "name": "Gill Bill",
+    "id": 582,
+    "unlockDetails": "Unlocked on Molch Island",
+    "duration": "06:35",
+    "members": true
+  },
+  {
+    "name": "Way of the Wyrm",
+    "id": 583,
+    "unlockDetails": "Unlocked in the lower level of the Karuulm Slayer Dungeon",
+    "duration": "05:31",
+    "members": true
+  },
+  {
+    "name": "Kanon of Kahlith",
+    "id": 584,
+    "unlockDetails": "Unlocked in the upper level of the Karuulm Slayer Dungeon",
+    "duration": "06:27",
+    "members": true
+  },
+  {
+    "name": "Ful to the Brim",
+    "id": 585,
+    "unlockDetails": "Unlocked in the middle level of the Karuulm Slayer Dungeon",
+    "duration": "04:32",
+    "members": true
+  },
+  {
+    "name": "Hoe Down",
+    "id": 586,
+    "unlockDetails": "Unlocked upon entering the Farming Guild",
+    "duration": "03:31",
+    "members": true
+  },
+  {
+    "name": "A Walk in the Woods",
+    "id": 587,
+    "unlockDetails": "Unlocked in the Kourend Woodland",
+    "duration": "01:44",
+    "members": true
+  },
+  {
+    "name": "Burning Desire",
+    "id": 588,
+    "unlockDetails": "Unlocked on Mount Karuulm",
+    "duration": "06:48",
+    "members": true
+  },
+  {
+    "name": "Alchemical Attack!",
+    "id": 589,
+    "unlockDetails": "Unlocked inside the Alchemical Hydra lair",
+    "duration": "06:20",
+    "members": true
+  },
+  {
+    "name": "Stuck in the Mire",
+    "id": 590,
+    "unlockDetails": "Unlocked in Kebos Swamp",
+    "duration": "06:43",
+    "members": true
+  },
+  {
+    "name": "Newbie Farming",
+    "id": 591,
+    "unlockDetails": "Unlocked south of the Farming Guild",
+    "duration": "03:45",
+    "members": true
+  },
+  {
+    "name": "A Farmer's Grind",
+    "id": 592,
+    "unlockDetails": "Unlocked in the west wing of the Farming Guild",
+    "duration": "04:59",
+    "members": true
+  },
+  {
+    "name": "Getting Down to Business",
+    "id": 593,
+    "unlockDetails": "Unlocked east of the Farming Guild.",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "Grow Grow Grow",
+    "id": 594,
+    "unlockDetails": "Unlocked in the north wing of the Farming Guild",
+    "duration": "05:46",
+    "members": true
+  },
+  {
+    "name": "A Thorn in My Side",
+    "id": 595,
+    "unlockDetails": "Unlocked during the fight with the Hespori",
+    "duration": "07:23",
+    "members": true
+  },
+  {
+    "name": "The Forsaken Tower",
+    "id": 596,
+    "unlockDetails": "Unlocked in The Forsaken Tower",
+    "duration": "05:05",
+    "members": true
+  },
+  {
+    "name": "On the Frontline",
+    "id": 597,
+    "unlockDetails": "Unlocked on the Kebos Battlefront",
+    "duration": "04:45",
+    "members": true
+  },
+  {
+    "name": "Servants of Strife",
+    "id": 598,
+    "unlockDetails": "Unlocked in Molch",
+    "duration": "03:37",
+    "members": true
+  },
+  {
+    "name": "Creeping Vines",
+    "id": 599,
+    "unlockDetails": "Unlocked in the Hespori cave in the Farming Guild",
+    "duration": "07:19",
+    "members": true
+  },
+  {
+    "name": "Box of Delights",
+    "id": 600,
+    "unlockDetails": "Unlocked in the Mimic Chest",
+    "duration": "02:56",
+    "members": true
+  },
+  {
+    "name": "A Forgotten Religion",
+    "id": 601,
+    "unlockDetails": "Unlocked in the Forthos Dungeon",
+    "duration": "06:28",
+    "members": true
+  },
+  {
+    "name": "Sarachnis",
+    "id": 602,
+    "unlockDetails": "Unlocked during the fight with Sarachnis",
+    "duration": "06:14",
+    "members": true
+  },
+  {
+    "name": "Elven Seed",
+    "id": 603,
+    "unlockDetails": "Unlocked in Gwenith",
+    "duration": "04:08",
+    "members": true
+  },
+  {
+    "name": "Faith of the Hefin",
+    "id": 604,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "06:26",
+    "members": true
+  },
+  {
+    "name": "The Tower of Voices",
+    "id": 605,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "07:09",
+    "members": true
+  },
+  {
+    "name": "Dance of the Meilyr",
+    "id": 606,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "04:51",
+    "members": true
+  },
+  {
+    "name": "Iorwerth's Lament",
+    "id": 607,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "06:57",
+    "members": true
+  },
+  {
+    "name": "Mystics of Nature",
+    "id": 608,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "07:28",
+    "members": true
+  },
+  {
+    "name": "The Seed of Crwys",
+    "id": 609,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "06:12",
+    "members": true
+  },
+  {
+    "name": "Architects of Prifddinas",
+    "id": 610,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "05:39",
+    "members": true
+  },
+  {
+    "name": "Trahaearn Toil",
+    "id": 611,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "05:22",
+    "members": true
+  },
+  {
+    "name": "The Gauntlet",
+    "id": 612,
+    "unlockDetails": "Unlocked while in The Gauntlet",
+    "duration": "10:29",
+    "members": true
+  },
+  {
+    "name": "The Spurned Demon",
+    "id": 613,
+    "unlockDetails": "Unlocked during the fight with Zalcano",
+    "duration": "07:17",
+    "members": true
+  },
+  {
+    "name": "Sharp End of the Crystal",
+    "id": 614,
+    "unlockDetails": "Unlocked in the Iorwerth Dungeon",
+    "duration": "05:37",
+    "members": true
+  },
+  {
+    "name": "Scape Crystal",
+    "id": 615,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:13",
+    "members": false
+  },
+  {
+    "name": "Song of the Elves",
+    "id": 616,
+    "unlockDetails": "Unlocked during Song of the Elves",
+    "duration": "05:43",
+    "members": true
+  },
+  {
+    "name": "Elven Guardians",
+    "id": 617,
+    "unlockDetails": "Unlocked upon entering Prifddinas",
+    "duration": "06:15",
+    "members": true
+  },
+  {
+    "name": "The Fires of Lletya",
+    "id": 618,
+    "unlockDetails": "Unlocked during Song of the Elves",
+    "duration": "05:09",
+    "members": true
+  },
+  {
+    "name": "Stand Up and Be Counted",
+    "id": 619,
+    "unlockDetails": "Unlocked during Song of the Elves",
+    "duration": "04:10",
+    "members": true
+  },
+  {
+    "name": "No Pasaran",
+    "id": 620,
+    "unlockDetails": "Unlocked during Song of the Elves",
+    "duration": "04:03",
+    "members": true
+  },
+  {
+    "name": "The Fragment",
+    "id": 621,
+    "unlockDetails": "Unlocked while fighting the Fragment of Seren during Song of the Elves",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Jaws of the Basilisk",
+    "id": 622,
+    "unlockDetails": "Unlocked during The Fremennik Exiles",
+    "duration": "05:00",
+    "members": true
+  },
+  {
+    "name": "Lair of the Basilisk",
+    "id": 623,
+    "unlockDetails": "Unlocked during The Fremennik Exiles",
+    "duration": "04:28",
+    "members": true
+  },
+  {
+    "name": "Fight of the Basilisk",
+    "id": 624,
+    "unlockDetails": "Unlocked during The Fremennik Exiles",
+    "duration": "05:18",
+    "members": true
+  },
+  {
+    "name": "Reign of the Basilisk",
+    "id": 625,
+    "unlockDetails": "Unlocked during The Fremennik Exiles",
+    "duration": "06:16",
+    "members": true
+  },
+  {
+    "name": "Ballad of the Basilisk",
+    "id": 626,
+    "unlockDetails": "Unlocked during The Fremennik Exiles",
+    "duration": "04:02",
+    "members": true
+  },
+  {
+    "name": "Arboretum",
+    "id": 627,
+    "unlockDetails": "Unlocked during the Sins of the Father  quest",
+    "duration": "03:40",
+    "members": true
+  },
+  {
+    "name": "Darkmeyer",
+    "id": 628,
+    "unlockDetails": "Unlocked during the Sins of the Father  quest",
+    "duration": "03:50",
+    "members": true
+  },
+  {
+    "name": "Upir Likhyi",
+    "id": 629,
+    "unlockDetails": "Unlocked during Sins of the Father",
+    "duration": "06:07",
+    "members": true
+  },
+  {
+    "name": "The Terrible Caverns",
+    "id": 630,
+    "unlockDetails": "Unlocked during the Sins of the Father  quest",
+    "duration": "04:08",
+    "members": true
+  },
+  {
+    "name": "The Terrible Tunnels",
+    "id": 631,
+    "unlockDetails": "Unlocked during the Sins of the Father  quest",
+    "duration": "05:04",
+    "members": true
+  },
+  {
+    "name": "The Bane of Ashihama",
+    "id": 632,
+    "unlockDetails": "Unlocked during the fight with The Nightmare",
+    "duration": "05:39",
+    "members": true
+  },
+  {
+    "name": "The Everlasting Slumber",
+    "id": 633,
+    "unlockDetails": "Unlocked in the Sisterhood Sanctuary",
+    "duration": "06:16",
+    "members": true
+  },
+  {
+    "name": "Domain of the Vampyres",
+    "id": 634,
+    "unlockDetails": "Unlocked during the Darkness of Hallowvale  quest",
+    "duration": "03:40",
+    "members": true
+  },
+  {
+    "name": "Lament for the Hallowed",
+    "id": 635,
+    "unlockDetails": "Unlocked in Icyene Graveyard",
+    "duration": "06:49",
+    "members": true
+  },
+  {
+    "name": "Well Hallowed Air",
+    "id": 636,
+    "unlockDetails": "Unlocked in the Hallowed Sepulchre",
+    "duration": "03:29",
+    "members": true
+  },
+  {
+    "name": "Morytanian Mystery",
+    "id": 637,
+    "unlockDetails": "Unlocked during the Darkness of Hallowvale  quest",
+    "duration": "03:08",
+    "members": true
+  },
+  {
+    "name": "Vampyre Assault",
+    "id": 638,
+    "unlockDetails": "Unlocked during the In Aid of the Myreque  quest",
+    "duration": "03:10",
+    "members": true
+  },
+  {
+    "name": "You Have My Attention",
+    "id": 639,
+    "unlockDetails": "Unlocked during the Sins of the Father  quest",
+    "duration": "06:39",
+    "members": true
+  },
+  {
+    "name": "Watch Your Step",
+    "id": 640,
+    "unlockDetails": "Unlocked in the Hallowed Sepulchre",
+    "duration": "06:22",
+    "members": true
+  },
+  {
+    "name": "Rest in Peace",
+    "id": 641,
+    "unlockDetails": "Unlocked in Death's Office",
+    "duration": "07:30",
+    "members": false
+  },
+  {
+    "name": "The Enclave",
+    "id": 642,
+    "unlockDetails": "Unlocked in Ferox Enclave",
+    "duration": "03:09",
+    "members": false
+  },
+  {
+    "name": "Safety in Numbers",
+    "id": 643,
+    "unlockDetails": "Unlocked entering the Sourhog Cave during A Porcine of Interest",
+    "duration": "02:59",
+    "members": true
+  },
+  {
+    "name": "Eve's Epinette",
+    "id": 644,
+    "unlockDetails": "Unlocked during the 2020 Halloween event",
+    "duration": "05:45",
+    "members": false
+  },
+  {
+    "name": "Sea Minor Shanty",
+    "id": 645,
+    "unlockDetails": "Unlocked during the 2020 Halloween event",
+    "duration": "01:43",
+    "members": false
+  },
+  {
+    "name": "A Dangerous Game",
+    "id": 646,
+    "unlockDetails": "Unlocked upon entering the Wilderness Slayer Cave",
+    "duration": "06:10",
+    "members": true
+  },
+  {
+    "name": "Scrubfoot's Descent",
+    "id": 647,
+    "unlockDetails": "Unlocked during the 2020 Christmas event",
+    "duration": "03:45",
+    "members": false
+  },
+  {
+    "name": "The Waiting Game",
+    "id": 648,
+    "unlockDetails": "Unlocked upon entering the Soul Wars lobby",
+    "duration": "04:39",
+    "members": true
+  },
+  {
+    "name": "Soul Wars",
+    "id": 649,
+    "unlockDetails": "Unlocked upon entering the Soul Wars lobby",
+    "duration": "05:06",
+    "members": true
+  },
+  {
+    "name": "Tempor of the Storm",
+    "id": 650,
+    "unlockDetails": "Unlocked while fighting Tempoross",
+    "duration": "06:19",
+    "members": true
+  },
+  {
+    "name": "The Ruins of Camdozaal",
+    "id": 651,
+    "unlockDetails": "Unlocked during the Below Ice Mountain  quest",
+    "duration": "03:52",
+    "members": false
+  },
+  {
+    "name": "Race Against the Clock",
+    "id": 652,
+    "unlockDetails": "Unlocked in the Camdozaal Vault",
+    "duration": "01:00",
+    "members": false
+  },
+  {
+    "name": "Barbarian Workout",
+    "id": 653,
+    "unlockDetails": "Unlocked during the Below Ice Mountain  quest",
+    "duration": "02:41",
+    "members": false
+  },
+  {
+    "name": "Organ Music 1",
+    "id": 654,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "01:15",
+    "members": false
+  },
+  {
+    "name": "Organ Music 2",
+    "id": 655,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "01:40",
+    "members": false
+  },
+  {
+    "name": "Rhapsody",
+    "id": 656,
+    "unlockDetails": "Unlocked via the \"Background-music\" option on the Clan Hall piano",
+    "duration": "05:03",
+    "members": false
+  },
+  {
+    "name": "Clanliness",
+    "id": 657,
+    "unlockDetails": "Unlocked in a Clan Hall",
+    "duration": "04:48",
+    "members": false
+  },
+  {
+    "name": "Rose",
+    "id": 658,
+    "unlockDetails": "Unlocked during the A Kingdom Divided  quest",
+    "duration": "04:18",
+    "members": true
+  },
+  {
+    "name": "Confrontation",
+    "id": 659,
+    "unlockDetails": "Unlocked during the A Kingdom Divided  quest",
+    "duration": "04:01",
+    "members": true
+  },
+  {
+    "name": "Beneath the Kingdom",
+    "id": 660,
+    "unlockDetails": "Unlocked in the Catacombs of Kourend",
+    "duration": "04:48",
+    "members": true
+  },
+  {
+    "name": "Military Life",
+    "id": 661,
+    "unlockDetails": "Unlocked in the Shayzien Encampment.",
+    "duration": "04:24",
+    "members": true
+  },
+  {
+    "name": "The Houses of Kourend",
+    "id": 662,
+    "unlockDetails": "Unlocked during the A Kingdom Divided  quest",
+    "duration": "02:32",
+    "members": true
+  },
+  {
+    "name": "The Part Where You Die",
+    "id": 663,
+    "unlockDetails": "Unlocked during the A Kingdom Divided  quest",
+    "duration": "05:11",
+    "members": true
+  },
+  {
+    "name": "Judgement of the Depths",
+    "id": 664,
+    "unlockDetails": "Unlocked during the A Kingdom Divided  quest",
+    "duration": "06:04",
+    "members": true
+  },
+  {
+    "name": "Regal Pomp",
+    "id": 665,
+    "unlockDetails": "Unlocked during the A Kingdom Divided  quest",
+    "duration": "02:39",
+    "members": true
+  },
+  {
+    "name": "Itsy Bitsy...",
+    "id": 666,
+    "unlockDetails": "Unlocked in the Morytania Spider Nest",
+    "duration": "04:40",
+    "members": true
+  },
+  {
+    "name": "Beyond the Meadow",
+    "id": 667,
+    "unlockDetails": "Unlocked west of Hosidius",
+    "duration": "03:58",
+    "members": true
+  },
+  {
+    "name": "Not a Moment of Relief",
+    "id": 668,
+    "unlockDetails": "Unlocked north of Arceuus",
+    "duration": "04:32",
+    "members": true
+  },
+  {
+    "name": "The Forests of Shayzien",
+    "id": 669,
+    "unlockDetails": "Unlocked west of Shayzien",
+    "duration": "03:20",
+    "members": true
+  },
+  {
+    "name": "Out at the Mines",
+    "id": 670,
+    "unlockDetails": "Unlocked at the Blast mine",
+    "duration": "03:22",
+    "members": true
+  },
+  {
+    "name": "What Happens Below...",
+    "id": 671,
+    "unlockDetails": "Unlocked in the Warrens",
+    "duration": "03:14",
+    "members": true
+  },
+  {
+    "name": "A Festive Party",
+    "id": 672,
+    "unlockDetails": "Unlocked during the 2021 Christmas event",
+    "duration": "03:24",
+    "members": false
+  },
+  {
+    "name": "Zaros Zeitgeist",
+    "id": 673,
+    "unlockDetails": "Unlocked during the fight with Nex",
+    "duration": "07:42",
+    "members": true
+  },
+  {
+    "name": "The Ancient Prison",
+    "id": 674,
+    "unlockDetails": "Unlocked in the Ancient Prison",
+    "duration": "02:13",
+    "members": true
+  },
+  {
+    "name": "The Angel's Fury",
+    "id": 675,
+    "unlockDetails": "Unlocked during the fight with Nex",
+    "duration": "04:27",
+    "members": true
+  },
+  {
+    "name": "Catacombs and Tombs",
+    "id": 676,
+    "unlockDetails": "Unlocked during Land of the Goblins",
+    "duration": "04:26",
+    "members": true
+  },
+  {
+    "name": "Dusk in Yu'biusk",
+    "id": 677,
+    "unlockDetails": "Unlocked in Yu'biusk",
+    "duration": "04:53",
+    "members": true
+  },
+  {
+    "name": "Temple of Tribes",
+    "id": 678,
+    "unlockDetails": "Unlocked during Land of the Goblins",
+    "duration": "04:56",
+    "members": true
+  },
+  {
+    "name": "Zanik's Theme",
+    "id": 679,
+    "unlockDetails": "Unlocked during Land of the Goblins",
+    "duration": "02:47",
+    "members": true
+  },
+  {
+    "name": "Don't Panic Zanik",
+    "id": 680,
+    "unlockDetails": "Unlocked during Land of the Goblins",
+    "duration": "03:06",
+    "members": true
+  },
+  {
+    "name": "Temple of the Eye",
+    "id": 681,
+    "unlockDetails": "Unlocked during the Temple of the Eye  quest",
+    "duration": "06:06",
+    "members": true
+  },
+  {
+    "name": "The Guardians Prepare",
+    "id": 682,
+    "unlockDetails": "Unlocked during the Temple of the Eye  quest",
+    "duration": "01:16",
+    "members": true
+  },
+  {
+    "name": "Guardians of the Rift",
+    "id": 683,
+    "unlockDetails": "Unlocked during the Temple of the Eye  quest",
+    "duration": "05:21",
+    "members": true
+  },
+  {
+    "name": "Impulses",
+    "id": 684,
+    "unlockDetails": "Unlocked near a crop circle to Puro-Puro",
+    "duration": "05:48",
+    "members": true
+  },
+  {
+    "name": "The Consortium",
+    "id": 685,
+    "unlockDetails": "Unlocked during The Giant Dwarf",
+    "duration": "04:28",
+    "members": true
+  },
+  {
+    "name": "Cain's Tutorial",
+    "id": 686,
+    "unlockDetails": "Unlocked during the Barbarian Assault tutorial",
+    "duration": "04:17",
+    "members": true
+  },
+  {
+    "name": "Surok's Theme",
+    "id": 687,
+    "unlockDetails": "Unlocked during What Lies Below",
+    "duration": "03:17",
+    "members": true
+  },
+  {
+    "name": "The Fremennik Kings",
+    "id": 688,
+    "unlockDetails": "This track unlocks during The Fremennik Isles quest",
+    "duration": "02:59",
+    "members": true
+  },
+  {
+    "name": "Tarn Razorlor",
+    "id": 689,
+    "unlockDetails": "Unlocked during Lair of Tarn Razorlor",
+    "duration": "02:50",
+    "members": true
+  },
+  {
+    "name": "Bob's on Holiday",
+    "id": 690,
+    "unlockDetails": "Unlocked during A Tail of Two Cats",
+    "duration": "02:32",
+    "members": true
+  },
+  {
+    "name": "Brain Battle",
+    "id": 691,
+    "unlockDetails": "Unlocked during The Great Brain Robbery",
+    "duration": "02:22",
+    "members": true
+  },
+  {
+    "name": "King of the Trolls",
+    "id": 692,
+    "unlockDetails": "Unlocked during The Fremennik Isles",
+    "duration": "02:09",
+    "members": true
+  },
+  {
+    "name": "Look to the Stars",
+    "id": 693,
+    "unlockDetails": "Unlocked during the Observatory Quest",
+    "duration": "02:07",
+    "members": true
+  },
+  {
+    "name": "The Fairy Dragon",
+    "id": 694,
+    "unlockDetails": "Unlocked during Recipe for Disaster",
+    "duration": "01:50",
+    "members": true
+  },
+  {
+    "name": "Crest of a Wave",
+    "id": 695,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "01:46",
+    "members": false
+  },
+  {
+    "name": "Dogfight",
+    "id": 696,
+    "unlockDetails": "Unlocked during The General's Shadow",
+    "duration": "01:45",
+    "members": true
+  },
+  {
+    "name": "Eye of the Storm",
+    "id": 697,
+    "unlockDetails": "Unlocked during Dragon Slayer I",
+    "duration": "01:25",
+    "members": false
+  },
+  {
+    "name": "The Penguin Bards",
+    "id": 698,
+    "unlockDetails": "Unlocked during Cold War",
+    "duration": "01:20",
+    "members": true
+  },
+  {
+    "name": "Dorgeshuun Treaty",
+    "id": 699,
+    "unlockDetails": "Unlocked during The Lost Tribe",
+    "duration": "01:10",
+    "members": true
+  },
+  {
+    "name": "The Sinclairs",
+    "id": 700,
+    "unlockDetails": "Unlocked during King's Ransom",
+    "duration": "01:06",
+    "members": true
+  },
+  {
+    "name": "Awful Anthem",
+    "id": 701,
+    "unlockDetails": "Unlocked during Throne of Miscellania",
+    "duration": "01:27",
+    "members": true
+  },
+  {
+    "name": "Wally the Hero",
+    "id": 702,
+    "unlockDetails": "Unlocked during Demon Slayer",
+    "duration": "01:19",
+    "members": false
+  },
+  {
+    "name": "Sorceress's Garden",
+    "id": 703,
+    "unlockDetails": "Unlocked in the Sorceress's Garden",
+    "duration": "01:28",
+    "members": true
+  },
+  {
+    "name": "Penguin Plots",
+    "id": 704,
+    "unlockDetails": "Unlocked during Cold War",
+    "duration": "01:06",
+    "members": true
+  },
+  {
+    "name": "Delrith",
+    "id": 705,
+    "unlockDetails": "Unlocked during Demon Slayer",
+    "duration": "01:20",
+    "members": false
+  },
+  {
+    "name": "Shattered Relics",
+    "id": 706,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "01:53",
+    "members": false
+  },
+  {
+    "name": "Venomous",
+    "id": 715,
+    "unlockDetails": "Unlocked automatically",
+    "duration": "03:33",
+    "members": false
+  },
+  {
+    "name": "The Gates of Menaphos",
+    "id": 716,
+    "unlockDetails": "Unlocked during Contact!",
+    "duration": "01:44",
+    "members": true
+  },
+  {
+    "name": "The Spymaster",
+    "id": 717,
+    "unlockDetails": "Unlocked during Contact!",
+    "duration": "02:33",
+    "members": true
+  },
+  {
+    "name": "Dunes of Eternity",
+    "id": 718,
+    "unlockDetails": "Unlocked during Beneath Cursed Sands",
+    "duration": "06:12",
+    "members": true
+  },
+  {
+    "name": "Ruins of Isolation",
+    "id": 719,
+    "unlockDetails": "Unlocked during Beneath Cursed Sands",
+    "duration": "05:46",
+    "members": true
+  },
+  {
+    "name": "The Forgotten Tomb",
+    "id": 720,
+    "unlockDetails": "Unlocked during Beneath Cursed Sands",
+    "duration": "05:18",
+    "members": true
+  },
+  {
+    "name": "Thrall of the Devourer",
+    "id": 721,
+    "unlockDetails": "Unlocked during Beneath Cursed Sands",
+    "duration": "05:53",
+    "members": true
+  },
+  {
+    "name": "The Pharaoh",
+    "id": 722,
+    "unlockDetails": "Unlocked during Beneath Cursed Sands",
+    "duration": "05:18",
+    "members": true
+  },
+  {
+    "name": "The Foundry",
+    "id": 723,
+    "unlockDetails": "This track unlocks during the Sleeping Giants  quest.",
+    "duration": "04:58",
+    "members": true
+  },
+  {
+    "name": "Into the Tombs",
+    "id": 724,
+    "unlockDetails": "Unlocked in the Tombs of Amascut raid lobby",
+    "duration": "07:15",
+    "members": true
+  },
+  {
+    "name": "Beneath Cursed Sands",
+    "id": 725,
+    "unlockDetails": "Unlocked in Nexus within the Tombs of Amascut",
+    "duration": "05:11",
+    "members": true
+  },
+  {
+    "name": "Laid to Rest",
+    "id": 726,
+    "unlockDetails": "Unlocked in the burial chamber within the Tombs of Amascut",
+    "duration": "05:39",
+    "members": true
+  },
+  {
+    "name": "Test of Isolation",
+    "id": 727,
+    "unlockDetails": "Unlocked in the Path of Scabaras within the Tombs of Amascut",
+    "duration": "04:19",
+    "members": true
+  },
+  {
+    "name": "Test of Strength",
+    "id": 728,
+    "unlockDetails": "Unlocked in the Path of Het within the Tombs of Amascut",
+    "duration": "07:14",
+    "members": true
+  },
+  {
+    "name": "Test of Companionship",
+    "id": 729,
+    "unlockDetails": "Unlocked in the Path of Apmeken within the Tombs of Amascut",
+    "duration": "05:07",
+    "members": true
+  },
+  {
+    "name": "Test of Resourcefulness",
+    "id": 730,
+    "unlockDetails": "Unlocked in the Path of Crondis within the Tombs of Amascut",
+    "duration": "04:24",
+    "members": true
+  },
+  {
+    "name": "A Mother's Curse",
+    "id": 731,
+    "unlockDetails": "Unlocked during the battle with Kephri in the Tombs of Amascut",
+    "duration": "06:14",
+    "members": true
+  },
+  {
+    "name": "Sands of Time",
+    "id": 732,
+    "unlockDetails": "Unlocked during the battle with Akkha in the Tombs of Amascut",
+    "duration": "07:45",
+    "members": true
+  },
+  {
+    "name": "Ape-ex Predator",
+    "id": 733,
+    "unlockDetails": "Unlocked during the battle with the Ba-Ba in the Tombs of Amascut",
+    "duration": "06:34",
+    "members": true
+  },
+  {
+    "name": "Jaws of Gluttony",
+    "id": 734,
+    "unlockDetails": "Unlocked during the battle with Zebak in the Tombs of Amascut",
+    "duration": "05:39",
+    "members": true
+  },
+  {
+    "name": "Amascut's Promise",
+    "id": 735,
+    "unlockDetails": "Unlocked during the battle with the Wardens in the Tombs of Amascut",
+    "duration": "09:24",
+    "members": true
+  },
+  {
+    "name": "The Old Ones",
+    "id": 736,
+    "unlockDetails": "Unlocked during The Garden of Death",
+    "duration": "03:12",
+    "members": true
+  },
+  {
+    "name": "Secrets of the North",
+    "id": 737,
+    "unlockDetails": "Unlocked during the Secrets of the North  quest",
+    "duration": "05:16",
+    "members": true
+  },
+  {
+    "name": "In the Shadows",
+    "id": 738,
+    "unlockDetails": "Unlocked during the Secrets of the North  quest",
+    "duration": "02:51",
+    "members": true
+  },
+  {
+    "name": "More Than Meets the Eye",
+    "id": 739,
+    "unlockDetails": "Unlocked during the Secrets of the North  quest",
+    "duration": "05:56",
+    "members": true
+  }
+]
