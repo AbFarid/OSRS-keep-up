@@ -13,10 +13,12 @@
   import type { PlayerData } from '../api/wikisync'
   import { AllSkills, type Levels, type SkillNames } from '../types/OSRS'
   import { playersStore } from '../stores'
+  import { CaretDown, CaretUp } from 'carbon-icons-svelte'
 
   $: player1 = $playersStore[0]
   $: player2 = $playersStore[1]
   $: loaded = player1 && player2
+  $: overallDiff = (player2?.levels.Overall - player1?.levels.Overall) || 0
 
   type LevelDifference = {
     skill: SkillNames
@@ -37,6 +39,18 @@
     }
 
     differences.sort((a, b) => b.difference - a.difference)
+  }
+
+  const getIcon = (difference: number) => {
+    if (difference > 0) return CaretUp
+    if (difference < 0) return CaretDown
+    else return null
+  }
+
+  const getColor = (difference: number) => {
+    if (difference > 0) return 'green'
+    if (difference < 0) return 'red'
+    else return 'gray'
   }
 </script>
 
@@ -67,7 +81,10 @@
             </b>
           </StructuredListCell>
           <StructuredListCell>
-            <b>{player2.levels.Overall - player1.levels.Overall}</b>
+            <Tag icon={getIcon(overallDiff)} type={getColor(overallDiff)}>
+              <b>{Math.abs(overallDiff)}</b>
+            </Tag>
+            
           </StructuredListCell>
           <StructuredListCell noWrap>
             <b>
@@ -85,7 +102,11 @@
               <!-- ({player1.levels[skill]}) -->
               <Tag size="sm" type="gray">{player1.levels[skill]}</Tag>
             </StructuredListCell>
-            <StructuredListCell>{difference}</StructuredListCell>
+            <StructuredListCell>
+              <Tag icon={getIcon(difference)} type={getColor(difference)}>
+                {Math.abs(difference)}
+              </Tag>
+            </StructuredListCell>
             <StructuredListCell noWrap>
               {skill}
               <!-- ({player2.levels[skill]}) -->
