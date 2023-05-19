@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte'
+  import { push, querystring, location } from 'svelte-spa-router'
   import {
     TextInput,
     Button,
@@ -11,15 +11,9 @@
   import RecentlyViewed from 'carbon-icons-svelte/lib/RecentlyViewed.svelte'
   import Lightning from 'carbon-icons-svelte/lib/Lightning.svelte'
   import { fetchWikiSync, type PlayerData } from '../api/wikisync'
-
-  import { player1Store, player2Store } from '../stores'
+  import { playersStore, fetching } from '../stores'
+  import { parseQueryString } from '../lib/routingUtils'
   //   import { ark_i, ark_v } from '../mocks/players'
-
-  const dispatch = createEventDispatcher()
-
-  function emitPlayers(players: [PlayerData, PlayerData]) {
-    dispatch('players', players)
-  }
 
   function getHistory(): string[] {
     const history = localStorage.getItem('history')
@@ -37,67 +31,83 @@
     localStorage.setItem('history', JSON.stringify(history))
   }
 
-  let fetching = false
   let history: string[] = getHistory()
-  let p1_username = localStorage.getItem('p1_username') || ''
-  let p2_username = localStorage.getItem('p2_username') || ''
+  let p1_username = ''
+  let p2_username = ''
   let p1_error = ''
   let p2_error = ''
 
-  let history_1 = []
-  let history_2 = []
   $: history_1 = history.filter(u => u != p2_username)
   $: history_2 = history.filter(u => u != p1_username)
 
-  const fetchPlayers = async (e?: Event) => {
-    if (e) e.preventDefault()
+  // If usernames in querystring, extract and set them
+  $: {
+    const { p1_un, p2_un, redirect } = parseQueryString($querystring)
+    if (p1_un) p1_username = p1_un
+    if (p2_un) p2_username = p2_un
+
+    // If usernames in querystring:
+    if (p1_un && p2_un) {
+      // For some reason this runs even when at another route,
+      // perhaps because component is still mounted,
+      // so we need to check if we're actually at home
+
+      if ($location == '/') {
+        // 1. Clear querystring leaving only redirect
+        let path = '/'
+        if (redirect) path += `?redirect=${redirect}`
+        push(path)
+        // 2. Try to fetch players
+        fetchPlayers(p1_username, p2_username)
+      }
+    }
+  }
+
+  const formSubmit = (e: Event) => {
+    e.preventDefault()
 
     p1_error = ''
     p2_error = ''
-
     if (!p1_username) return (p1_error = 'Enter your username')
     if (!p2_username) return (p2_error = "Enter your friend's username")
 
     if (p1_username.toLocaleLowerCase() == p2_username.toLocaleLowerCase())
       return (p2_error = "You can't compare yourself to yourself :(")
 
-    if (fetching) return
-    fetching = true
+    fetchPlayers(p1_username, p2_username)
+  }
 
+  const fetchPlayers = async (p1_username, p2_username) => {
+    if ($fetching) return
+
+    fetching.set(true)
     const { data: player1, error: error1 } = await fetchWikiSync(p1_username)
     const { data: player2, error: error2 } = await fetchWikiSync(p2_username)
-
     // simulate fetch for 1 second
     // await new Promise(resolve => setTimeout(resolve, 1000))
-
-    fetching = false
+    fetching.set(false)
 
     if (error1) p1_error = error1
     if (error2) p2_error = error2
 
     if (player1 && player2) {
-      localStorage.setItem('p1_username', p1_username)
-      localStorage.setItem('p2_username', p2_username)
-      saveHistory(p1_username)
-      saveHistory(p2_username)
-      player1Store.set(player1)
-      player2Store.set(player2)
+      localStorage.setItem('p1_username', player1.username)
+      localStorage.setItem('p2_username', player2.username)
+      const players: [PlayerData, PlayerData] = [player1, player2]
+      players.forEach(p => saveHistory(p.username))
+      playersStore.set(players)
     }
 
-    // TODO: Remove this mock
-    // const player1 = ark_v as PlayerData
-    // const player2 = ark_i as PlayerData
+    // There was an error
+    else {
+
+    }
   }
 
-  // Fetch players on page load if usernames are set
-  if (p1_username && p2_username) fetchPlayers()
-
-  // let p1_username = 'Arkantis V'
-  // let p2_username = 'Arkantis I'
 </script>
 
 <div class="narrow">
-  <Form on:submit={fetchPlayers}>
+  <Form on:submit={formSubmit}>
     <div class="input-with-overflow">
       <TextInput
         labelText="Your username"
@@ -140,7 +150,7 @@
       {/if}
     </div>
 
-    {#if !fetching}
+    {#if !$fetching}
       <Button type="submit" icon={Lightning}>Keep Up!</Button>
     {:else}
       <Button style="padding: 15px 60px" disabled>

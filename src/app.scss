@@ -24,11 +24,12 @@
 
 .input-with-overflow {
   display: flex;
-  align-items: end;
+  // align-items: end;
 
   .bx--overflow-menu {
     background-color: #f4f4f4;
     border-bottom: 1px solid #8d8d8d;
+    margin-top: 24px;
   }
 }
 

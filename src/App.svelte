@@ -1,114 +1,57 @@
 <script lang="ts">
-  import { onMount, onDestroy } from 'svelte'
   import 'carbon-components-svelte/css/white.css'
+  import Router, { push, querystring, location } from 'svelte-spa-router'
+  import routes from './routes'
+  import { clearing, playersStore, swapping } from './stores'
+  import { handleRouteChanges, parseQueryString } from './lib/routingUtils'
 
-  import PlayersForm from './components/PlayersForm.svelte'
-  import PlayersDetails from './components/PlayersDetails.svelte'
-  import {
-    Header,
-    SkipToContent,
-    Content,
-    Grid,
-    Row,
-    Column,
-    HeaderGlobalAction,
-    HeaderUtilities,
-  } from 'carbon-components-svelte'
-  import { player1Store, player2Store } from './stores'
-  import Renew from 'carbon-icons-svelte/lib/Renew.svelte'
-  import ArrowsHorizontal from 'carbon-icons-svelte/lib/ArrowsHorizontal.svelte'
-  import Logout from 'carbon-icons-svelte/lib/Logout.svelte'
-  import { fetchWikiSync, type PlayerData } from './api/wikisync'
-  import type { Levels } from './types/OSRS'
+  import SideNav from './components/SideNav.svelte'
+  import Header from './components/Header.svelte'
+  import { Content, Grid, Row, Column } from 'carbon-components-svelte'
 
   let isSideNavOpen = false
+  let player1 = $playersStore[0]
+  let player2 = $playersStore[1]
+  $: loaded = player1 && player2
 
-  let player1: PlayerData = null
-  let player2: PlayerData = null
-
-  let unsubscribePlayer1
-  let unsubscribePlayer2
-
-  onMount(() => {
-    unsubscribePlayer1 = player1Store.subscribe(value => (player1 = value))
-    unsubscribePlayer2 = player2Store.subscribe(value =>  player2 = value)
-  })
-
-  onDestroy(() => {
-    unsubscribePlayer1()
-    unsubscribePlayer2()
-  })
-
-  const refreshPlayers = async () => {
-    if (!player1 || !player2) return
-    console.log('refreshing')
-    const { data: p1 } = await fetchWikiSync(player1.username)
-    const { data: p2 } = await fetchWikiSync(player2.username)
-    player1Store.set(p1)
-    player2Store.set(p2)
+  // Keep track of qeurysting changes
+  let p1_username: string
+  let p2_username: string
+  let redirectTo: string
+  $: {
+    // ?p1=Arkantis+V&p2=Arkantis+I
+    const { p1_un, p2_un, redirect } = parseQueryString($querystring)
+    p1_username = p1_un
+    p2_username = p2_un
+    redirectTo = redirect
   }
 
-  const swapPlayers = () => {
-    console.log('swapping')
-    const p1 = player1
-    const p2 = player2
-    player1Store.set(p2)
-    player2Store.set(p1)
+  $: {
+    player1 = $playersStore[0]
+    player2 = $playersStore[1]
 
-    // const p1 = player1
-    // p1.levels.Smithing = 99
-    // player1Store.set(p1)
-  }
-
-  const exit = () => {
-    localStorage.removeItem('p1_username')
-    localStorage.removeItem('p2_username')
-    player1 = null
-    player2 = null
+    handleRouteChanges(
+      player1,
+      player2,
+      p1_username,
+      p2_username,
+      redirectTo,
+      $location,
+      $swapping,
+      $clearing
+    )
   }
 </script>
 
 <main>
-  <Header company="OSRS" platformName="Keep Up" bind:isSideNavOpen>
-    <svelte:fragment slot="skip-to-content">
-      <SkipToContent />
-    </svelte:fragment>
-    
-    {#if player1 && player2 }
-      <HeaderUtilities>
-        <HeaderGlobalAction
-          aria-label="Settings"
-          icon={Renew}
-          on:click={refreshPlayers}
-        />
-        <HeaderGlobalAction
-          aria-label="Settings"
-          icon={ArrowsHorizontal}
-          on:click={swapPlayers}
-        />
-        <HeaderGlobalAction
-          aria-label="Settings"
-          icon={Logout}
-          on:click={exit}
-        />
-      </HeaderUtilities>
-    {/if}
-  </Header>
+  <Header bind:isSideNavOpen {player1} {player2} />
+
+  {#if loaded}
+    <SideNav {isSideNavOpen} querystring={$querystring} location={$location} />
+  {/if}
 
   <Content>
-    <Grid>
-      <Row>
-        {#if !player1 || !player2}
-          <Column>
-            <PlayersForm />
-          </Column>
-        {:else}
-          <Column>
-            <PlayersDetails/>
-          </Column>
-        {/if}
-      </Row>
-    </Grid>
+    <Router {routes} />
   </Content>
 </main>
 
