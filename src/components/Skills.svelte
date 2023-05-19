@@ -18,7 +18,7 @@
   $: player1 = $playersStore[0]
   $: player2 = $playersStore[1]
   $: loaded = player1 && player2
-  $: overallDiff = (player2?.levels.Overall - player1?.levels.Overall) || 0
+  $: overallDiff = player2?.levels.Overall - player1?.levels.Overall || 0
 
   type LevelDifference = {
     skill: SkillNames
@@ -42,14 +42,14 @@
   }
 
   const getIcon = (difference: number) => {
-    if (difference > 0) return CaretUp
-    if (difference < 0) return CaretDown
+    if (difference < 0) return CaretUp
+    if (difference > 0) return CaretDown
     else return null
   }
 
   const getColor = (difference: number) => {
-    if (difference > 0) return 'green'
-    if (difference < 0) return 'red'
+    if (difference < 0) return 'green'
+    if (difference > 0) return 'red'
     else return 'gray'
   }
 </script>
@@ -74,24 +74,17 @@
       <StructuredListBody>
         <StructuredListRow>
           <StructuredListCell noWrap>
-            <b>
-              Total
-              <!-- ({player1.levels.Overall}) -->
-              <Tag size="sm" type="gray">{player1.levels.Overall}</Tag>
-            </b>
+            <b>Total</b>
+            <Tag size="sm" type="gray"><b>{player1.levels.Overall}</b></Tag>
           </StructuredListCell>
           <StructuredListCell>
             <Tag icon={getIcon(overallDiff)} type={getColor(overallDiff)}>
               <b>{Math.abs(overallDiff)}</b>
             </Tag>
-            
           </StructuredListCell>
           <StructuredListCell noWrap>
-            <b>
-              Total
-              <!-- ({player2.levels.Overall}) -->
-              <Tag size="sm" type="gray">{player2.levels.Overall}</Tag>
-            </b>
+            <b>Total</b>
+            <Tag size="sm" type="gray"><b>{player2.levels.Overall}</b></Tag>
           </StructuredListCell>
         </StructuredListRow>
 
