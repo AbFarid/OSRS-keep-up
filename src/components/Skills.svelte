@@ -14,6 +14,7 @@
   import { AllSkills, type Levels, type SkillNames } from '../types/OSRS'
   import { playersStore } from '../stores'
   import { CaretDown, CaretUp } from 'carbon-icons-svelte'
+  import { Equal } from './icons'
 
   $: player1 = $playersStore[0]
   $: player2 = $playersStore[1]
@@ -44,13 +45,13 @@
   const getIcon = (difference: number) => {
     if (difference < 0) return CaretUp
     if (difference > 0) return CaretDown
-    else return null
+    else return Equal
   }
 
   const getColor = (difference: number) => {
     if (difference < 0) return 'green'
     if (difference > 0) return 'red'
-    else return 'gray'
+    else return 'outline'
   }
 
   const getSkillIcon = (skill: string, detailed = false) => {
@@ -97,7 +98,7 @@
 
           <StructuredListCell>
             <Tag size="sm" icon={getIcon(overallDiff)} type={getColor(overallDiff)}>
-              <b>{Math.abs(overallDiff)}</b>
+              <b>{ overallDiff != 0 ? Math.abs(overallDiff) : '' }</b>
             </Tag>
           </StructuredListCell>
 
@@ -124,7 +125,7 @@
 
             <StructuredListCell>
               <Tag size="sm" icon={getIcon(difference)} type={getColor(difference)}>
-                {Math.abs(difference)}
+                { difference != 0 ? Math.abs(difference) : '' }
               </Tag>
             </StructuredListCell>
 

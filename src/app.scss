@@ -58,6 +58,16 @@
     .bx--structured-list-th.centered {
       text-align: center;
     }
+
+    .bx--tag {
+      &:has(.bx--tag__custom-icon) span:not(:empty) {
+        margin-right: 0.25rem;
+      }
+
+      .bx--tag__custom-icon {
+        margin-right: 0;
+      }
+    }
   }
 }
 
