@@ -1,4 +1,4 @@
-import type { Quests, AchievementDiaries, Levels } from '../types/OSRS'
+import { type Quests, type AchievementDiaries, type Levels, AllSkills } from '../types/OSRS'
 
 export interface PlayerData {
   username: string
@@ -9,6 +9,18 @@ export interface PlayerData {
   music_tracks: number[]
   combat_achievements: number[]
   league_tasks: any
+}
+
+const patchOverall = (data: PlayerData) => {
+  if (data.levels.Overall > 1) return data
+
+  const total = AllSkills.reduce((acc, skill) => {
+    return acc + (data.levels[skill] || 0)
+  } , 0)
+
+  data.levels.Overall = total
+  console.log('patched overall', data)
+  return data
 }
 
 const baseUrl = 'https://sync.runescape.wiki/runelite/player'
@@ -27,7 +39,8 @@ export const fetchWikiSync = async (
       return { error: error.error }
     }
 
-    const data = await response.json()
+    let data = await response.json()
+    data = patchOverall(data)
     return { data }
     
   } catch (error) {

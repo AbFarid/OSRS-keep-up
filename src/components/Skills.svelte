@@ -7,6 +7,7 @@
     StructuredListCell,
     StructuredListBody,
     StructuredListSkeleton,
+    Tag,
   } from 'carbon-components-svelte'
   import { push } from 'svelte-spa-router'
   import type { PlayerData } from '../api/wikisync'
@@ -43,7 +44,7 @@
   {#if !loaded}
     <StructuredListSkeleton rows={15} style="margin-bottom:0" />
   {:else}
-    <StructuredList condensed style="margin-bottom:0">
+    <StructuredList condensed flush style="margin-bottom:0">
       <StructuredListHead class="centered">
         <StructuredListRow head>
           <StructuredListCell head>
@@ -57,14 +58,38 @@
       </StructuredListHead>
 
       <StructuredListBody>
+        <StructuredListRow>
+          <StructuredListCell noWrap>
+            <b>
+              Total
+              <!-- ({player1.levels.Overall}) -->
+              <Tag size="sm" type="gray">{player1.levels.Overall}</Tag>
+            </b>
+          </StructuredListCell>
+          <StructuredListCell>
+            <b>{player2.levels.Overall - player1.levels.Overall}</b>
+          </StructuredListCell>
+          <StructuredListCell noWrap>
+            <b>
+              Total
+              <!-- ({player2.levels.Overall}) -->
+              <Tag size="sm" type="gray">{player2.levels.Overall}</Tag>
+            </b>
+          </StructuredListCell>
+        </StructuredListRow>
+
         {#each differences as { skill, difference } (skill)}
           <StructuredListRow>
             <StructuredListCell noWrap>
-              {skill} ({player1.levels[skill]})
+              {skill}
+              <!-- ({player1.levels[skill]}) -->
+              <Tag size="sm" type="gray">{player1.levels[skill]}</Tag>
             </StructuredListCell>
             <StructuredListCell>{difference}</StructuredListCell>
             <StructuredListCell noWrap>
-              {skill} ({player2.levels[skill]})
+              {skill}
+              <!-- ({player2.levels[skill]}) -->
+              <Tag size="sm" type="gray">{player2.levels[skill]}</Tag>
             </StructuredListCell>
           </StructuredListRow>
         {/each}
@@ -74,6 +99,9 @@
 </div>
 
 <style scoped lang="scss">
+  b {
+    font-weight: 600 !important;
+  }
   .narrow {
     max-width: 600px;
     margin: auto;
