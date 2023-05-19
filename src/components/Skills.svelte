@@ -52,54 +52,82 @@
     if (difference > 0) return 'red'
     else return 'gray'
   }
+
+  const getSkillIcon = (skill: string, detailed = false) => {
+    const baseUrl = 'https://oldschool.runescape.wiki/images'
+    const detail = detailed ? '_%28detail%29' : ''
+    return `${baseUrl}/${skill}_icon${detail}.png`
+  }
 </script>
 
-<div class="narrow">
+<div id="skills" class="narrow">
   {#if !loaded}
     <StructuredListSkeleton rows={15} style="margin-bottom:0" />
   {:else}
     <StructuredList condensed flush style="margin-bottom:0">
-      <StructuredListHead class="centered">
+      <StructuredListHead>
         <StructuredListRow head>
+          <StructuredListCell head>&nbsp;</StructuredListCell>
+
           <StructuredListCell head>
             {player1?.username || '-'}
           </StructuredListCell>
-          <StructuredListCell head>Difference</StructuredListCell>
+
+          <StructuredListCell head class="centered">Diff.</StructuredListCell>
+
           <StructuredListCell head>
             {player2?.username || '-'}
           </StructuredListCell>
         </StructuredListRow>
       </StructuredListHead>
 
+
       <StructuredListBody>
         <StructuredListRow>
+          <StructuredListCell head>
+            <div class="imgWrapper">
+              <img src={getSkillIcon('Stats')} alt={`Stats_icon`}>
+            </div>
+          </StructuredListCell>
+
           <StructuredListCell noWrap>
             <b>Total</b>
             <Tag size="sm" type="gray"><b>{player1.levels.Overall}</b></Tag>
           </StructuredListCell>
+
           <StructuredListCell>
-            <Tag icon={getIcon(overallDiff)} type={getColor(overallDiff)}>
+            <Tag size="sm" icon={getIcon(overallDiff)} type={getColor(overallDiff)}>
               <b>{Math.abs(overallDiff)}</b>
             </Tag>
           </StructuredListCell>
+
           <StructuredListCell noWrap>
             <b>Total</b>
             <Tag size="sm" type="gray"><b>{player2.levels.Overall}</b></Tag>
           </StructuredListCell>
         </StructuredListRow>
 
+
         {#each differences as { skill, difference } (skill)}
           <StructuredListRow>
+            <StructuredListCell head>
+              <div class="imgWrapper">
+                <img src={getSkillIcon(skill)} alt={`${skill}_icon`}>
+              </div>
+            </StructuredListCell>
+
             <StructuredListCell noWrap>
               {skill}
               <!-- ({player1.levels[skill]}) -->
               <Tag size="sm" type="gray">{player1.levels[skill]}</Tag>
             </StructuredListCell>
+
             <StructuredListCell>
-              <Tag icon={getIcon(difference)} type={getColor(difference)}>
+              <Tag size="sm" icon={getIcon(difference)} type={getColor(difference)}>
                 {Math.abs(difference)}
               </Tag>
             </StructuredListCell>
+
             <StructuredListCell noWrap>
               {skill}
               <!-- ({player2.levels[skill]}) -->
@@ -113,6 +141,7 @@
 </div>
 
 <style scoped lang="scss">
+
   b {
     font-weight: 600 !important;
   }
@@ -121,5 +150,17 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+  }
+
+  .imgWrapper {
+    display: flex;
+    float: right;
+    width: 25px;
+    height: 100%;
+    margin-left: 10px;
+
+    img {
+      margin: auto;
+    }
   }
 </style>

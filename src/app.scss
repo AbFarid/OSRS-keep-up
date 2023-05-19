@@ -20,6 +20,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  .bx--side-nav~.bx--content {
+    margin-left: auto;
+  }
+  .bx--header~.bx--content {
+    margin-top: 1rem;
+  }
 }
 
 .input-with-overflow {
@@ -33,13 +40,24 @@
   }
 }
 
-.bx--header~.bx--content {
-  margin-top: 1rem;
-}
 
-.bx--structured-list-thead.centered {
-  .bx--structured-list-th {
-    text-align: center;
+#skills {
+
+  .bx--structured-list {
+    max-width: 450px;
+    margin: auto;
+    
+    .bx--structured-list-td.bx--structured-list-content--nowrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 150px;
+    }
+
+    .bx--structured-list-thead.centered .bx--structured-list-th,
+    .bx--structured-list-th.centered {
+      text-align: center;
+    }
   }
 }
 
