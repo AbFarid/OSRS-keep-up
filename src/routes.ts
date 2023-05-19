@@ -9,9 +9,9 @@ export default {
   // '/skills/:p1/:p2': Skills,
   '/quests/': Quests,
   '/music/': Quests,
-  '/diaries/': Quests,
+  '/diary/': Quests,
   '/combat/': Quests,
   // '/music/': Music,
-  // '/diaries/': Diaries,
+  // '/diary/': Diary,
   // '/combat/': Combat,
 }
