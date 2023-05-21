@@ -71,6 +71,9 @@
     if (!p1_username) return (p1_error = 'Enter your username')
     if (!p2_username) return (p2_error = "Enter your friend's username")
 
+    p1_username = p1_username.trim()
+    p2_username = p2_username.trim()
+
     if (p1_username.toLocaleLowerCase() == p2_username.toLocaleLowerCase())
       return (p2_error = "You can't compare yourself to yourself :(")
 

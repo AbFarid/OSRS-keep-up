@@ -19,7 +19,6 @@ const patchOverall = (data: PlayerData) => {
   } , 0)
 
   data.levels.Overall = total
-  console.log('patched overall', data)
   return data
 }
 

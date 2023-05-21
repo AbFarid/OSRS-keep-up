@@ -1,6 +1,7 @@
 import Home from './components/Home.svelte'
 import Skills from './components/Skills.svelte'
 import Quests from './components/Quests.svelte'
+import Combat from './components/Combat.svelte'
 // import { redirect } from 'svelte-spa-router'
 
 export default {
@@ -10,8 +11,7 @@ export default {
   '/quests/': Quests,
   '/music/': Quests,
   '/diary/': Quests,
-  '/combat/': Quests,
+  '/combat/': Combat,
   // '/music/': Music,
   // '/diary/': Diary,
-  // '/combat/': Combat,
 }

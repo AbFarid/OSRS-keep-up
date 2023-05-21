@@ -14,8 +14,8 @@ dist-ssr
 
 # Temporary files
 mocks
-src/lib/combine.js
-src/lib/combat-achiev-*.json
+src/data/combine.js
+src/data/combat-achiev-*.json
 
 # Editor directories and files
 .vscode/*

@@ -239,3 +239,28 @@ export type Levels = {
 } & {
   Overall?: number
 }
+
+// Combat Achievements
+export const tiers = [
+  'Easy',
+  'Medium',
+  'Hard',
+  'Elite',
+  'Master',
+  'Grandmaster',
+] as const
+export type Tier = (typeof tiers)[number]
+export interface CombatAchievement {
+  id: number
+  name: string
+  description: string
+  type:
+    | 'Kill Count'
+    | 'Mechanical'
+    | 'Perfection'
+    | 'Restriction'
+    | 'Speed'
+    | 'Stamina'
+  tier: Tier
+  monster: string
+}

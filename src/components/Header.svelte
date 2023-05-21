@@ -9,23 +9,21 @@
   } from 'carbon-components-svelte'
   import { Renew, ArrowsHorizontal, Logout } from 'carbon-icons-svelte'
   import { fetchWikiSync, type PlayerData } from '../api/wikisync'
-  import { playersStore, swapping, clearing } from '../stores'
+  import { playersStore, swapping, clearing, fetching } from '../stores'
 
   export let player1: PlayerData = null
   export let player2: PlayerData = null
   export let isSideNavOpen = false
-  let refreshing = false
-  let loaded = false
   $: loaded = !!(player1 && player2)
 
   const refreshPlayers = async () => {
-    if (!loaded || refreshing) return
+    if (!loaded || $fetching) return
     console.log('Refreshing players...')
-    refreshing = true
+    $fetching = true
     const { data: p1 } = await fetchWikiSync(player1.username)
     const { data: p2 } = await fetchWikiSync(player2.username)
     playersStore.set([p1, p2])
-    refreshing = false
+    $fetching = false
     console.log('Players refreshed!')
   }
 
@@ -60,7 +58,7 @@
 
   {#if loaded}
     <HeaderUtilities>
-      {#if !refreshing}
+      {#if !$fetching}
         <HeaderGlobalAction
           aria-label="Settings"
           icon={Renew}

@@ -1,3 +1,6 @@
+@import url(./styles/_colors.scss);
+@import url(./styles/nose-wind.scss);
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -21,12 +24,12 @@
   padding: 2rem;
   text-align: center;
 
-  .bx--side-nav~.bx--content {
-    margin-left: auto;
-  }
-  .bx--header~.bx--content {
-    margin-top: 1rem;
-  }
+  // .bx--side-nav~.bx--content {
+  //   margin-left: auto;
+  // }
+  // .bx--header~.bx--content {
+  //   margin-top: 1rem;
+  // }
 }
 
 .input-with-overflow {
@@ -40,13 +43,42 @@
   }
 }
 
+.popoverWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.bx--tag {
+  .bx--tag__custom-icon {
+    margin-right: 0;
+  }
+
+  &.diff {
+    &.bold > * {
+      font-weight: bold !important;
+    }
+
+    min-width: none;
+
+    &:has(.bx--tag__custom-icon) {
+      span:not(:empty) {
+        margin-right: 0;
+      }
+
+      &:has(span:not(:empty)) {
+        .bx--tag__custom-icon {
+          margin-left: -3px;
+        }
+      }
+    }
+  }
+}
 
 #skills {
-
   .bx--structured-list {
     max-width: 450px;
     margin: auto;
-    
+
     .bx--structured-list-td.bx--structured-list-content--nowrap {
       display: flex;
       justify-content: space-between;
@@ -58,16 +90,156 @@
     .bx--structured-list-th.centered {
       text-align: center;
     }
+  }
 
-    .bx--tag {
-      &:has(.bx--tag__custom-icon) span:not(:empty) {
-        margin-right: 0.25rem;
-      }
-
-      .bx--tag__custom-icon {
-        margin-right: 0;
-      }
-    }
+  .height-adjusted {
+    margin: auto;
+    position: relative;
+    top: 8px;
   }
 }
 
+#combat {
+  // min-width: 750px;
+  min-width: 640px;
+  max-width: 650px;
+  margin: auto;
+
+  .imgWrapper {
+    display: flex;
+    min-width: 25px;
+    height: 25px;
+
+    img {
+      margin: auto;
+    }
+  }
+
+  .versus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto 20px;
+
+    h4 {
+      margin: 0;
+    }
+
+    h5 {
+      margin: 0 20px;
+      opacity: 0.4;
+    }
+
+    .bx--skeleton__placeholder {
+      height: 28px;
+      width: 140px;
+    }
+  }
+
+  .tile {
+    // width: 100px;
+    // height: 100px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr; /* 4 columns, first one is half width */
+    grid-template-rows: auto auto; /* 2 rows */
+    gap: 10px; /* adjust gap between grid items if necessary */
+
+    .half-width {
+      grid-row: span 2; /* makes the element span 2 rows */
+    }
+  }
+
+  .bx--structured-list-th {
+    white-space: nowrap;
+  }
+
+  .bx--structured-list-td.icon-offset svg {
+    position: relative;
+    top: 14px;
+  }
+
+  .bx--tabs__nav {
+    width: 100%;
+
+    .bx--tabs__nav-link {
+      width: 100% !important;
+    }
+  }
+
+  .bx--structured-list-tbody {
+    .bx--structured-list-row:last-child {
+      border-bottom: none;
+    }
+  }
+
+  // Combat Achievement tier colors
+  .bx--tag {
+    &.bold {
+      font-weight: bold;
+    }
+
+    &.bronze {
+      background-color: #cd7f32;
+      color: #4c2803;
+    }
+    &.steel {
+      background-color: #aaaaaa;
+      color: #444444;
+    }
+    &.black {
+      background-color: #222;
+      color: #777;
+    }
+    &.rune {
+      background-color: #62cdfb;
+      color: #1d4c60;
+    }
+    &.dragon {
+      background-color: #fc7569;
+      color: #590000;
+    }
+    &.bandos {
+      background-color: #e8daff;
+      color: #491d8b;
+    }
+  }
+
+  .bronze {
+    background-color: #cd7f32;
+    color: #4c2803;
+  }
+  .steel {
+    background-color: #aaaaaa;
+    color: #444444;
+  }
+  .black {
+    background-color: #222;
+    color: #777;
+  }
+  .rune {
+    background-color: #62cdfb;
+    color: #1d4c60;
+  }
+  .dragon {
+    background-color: #fc7569;
+    color: #590000;
+  }
+  .bandos {
+    background-color: #e8daff;
+    color: #491d8b;
+  }
+}
