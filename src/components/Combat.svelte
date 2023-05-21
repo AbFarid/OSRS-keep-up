@@ -54,8 +54,8 @@
   // }, {})
 
   $: catching_up = p2_cbach_all?.filter(a => !p1_cbach_all?.includes(a))
-  $: cbach_count_all = player2.combat_achievements.filter(
-    a => !player1.combat_achievements.includes(a)
+  $: cbach_count_all = player2?.combat_achievements.filter(
+    a => !player1?.combat_achievements.includes(a)
   ).length
   $: cbach_count = tiers.reduce((counts, tier) => {
 
@@ -344,7 +344,7 @@
                       <StructuredListCell class="ta-l fw">
                         <SkeletonPlaceholder class="fw" style="height: 20px" />
                       </StructuredListCell>
-                      
+
                       <StructuredListCell class="ta-l">
                         <SkeletonPlaceholder class="fw" style="height: 20px" />
                       </StructuredListCell>
