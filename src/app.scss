@@ -58,7 +58,7 @@
       font-weight: bold !important;
     }
 
-    min-width: none;
+    min-width: auto;
 
     &:has(.bx--tag__custom-icon) {
       span:not(:empty) {
@@ -131,7 +131,7 @@
     }
 
     .bx--skeleton__placeholder {
-      height: 28px;
+      height: 32px;
       width: 140px;
     }
   }
@@ -139,8 +139,8 @@
   .tile {
     // width: 100px;
     // height: 100px;
-    padding-right: 8px;
-    padding-bottom: 12px;
+    padding: 12px;
+    min-height: auto;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -163,6 +163,48 @@
     }
   }
 
+  .list-controls {
+    display: flex;
+    align-items: center;
+    padding: 4px 0 12px;
+    // border-bottom: 1px solid #e0e0e0;
+    // margin-bottom: 12px;
+
+    .btn-set {
+      border: 1px solid #e0e0e0;
+    }
+
+    .bx--btn {
+      padding: 8px;
+      min-height: auto;
+      color: grey;
+
+      &:not(.bx--btn--selected) {
+        svg > * {
+          fill: grey;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: -0.25rem;
+      }
+    }
+
+    .bx--btn__icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  .empty-list-warning {
+    min-height: 140px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .bx--structured-list-th {
     white-space: nowrap;
   }
@@ -178,6 +220,10 @@
     .bx--tabs__nav-link {
       width: 100% !important;
     }
+  }
+
+  .bx--tab-content {
+    min-height: 320px;
   }
 
   .bx--structured-list-tbody {

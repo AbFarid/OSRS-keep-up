@@ -26,10 +26,10 @@
   $: type = getColor(diff) as TagType
   $: icon = getIcon(diff)
 
-  let classes = 'diff'
+  $: classes = 'diff ' + $$restProps.class
   $: if (bold) classes += ' bold'
 </script>
 
-<Tag {size} {type} {icon} class={classes}>
+<Tag {...$$restProps} {size} {type} {icon} class={classes}>
   { diff != 0 ? Math.abs(diff) : ''}
 </Tag>
