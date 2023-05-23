@@ -21,10 +21,8 @@
   import DiffTag from './DiffTag.svelte'
   import { getImg, getTierIcon } from '../lib/iconUtils'
   import { Checkmark, CheckmarkFilled, Misuse } from 'carbon-icons-svelte'
-  import TasksAll from './icons/TasksAll.svelte'
-  import TasksDiff from './icons/TasksDiff.svelte'
-  import TasksCatchUp from './icons/TasksCatchUp.svelte'
-  import Robot from './pictograms/Robot.svelte'
+  import { TasksAll, TasksDiff, TasksCatchUp } from './icons'
+  import { Robot } from './pictograms'
 
   const CB_ACH_ALL = TYPELESS_CB_ACH as CombatAchievement[]
   const CB_ACH = {
@@ -41,6 +39,8 @@
 
   type TierTab = Tier | 'All'
   const tabs: TierTab[] = ['All', ...tiers]
+
+  let robot = true
 
   $: player1 = $playersStore[0]
   $: player2 = $playersStore[1]
@@ -380,7 +380,18 @@
               </StructuredList>
             {:else}
               <div class="empty-list-warning">
-                <Robot size={64} />
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="easter-egg" on:click={_ => (robot = !robot)}>
+                  {#if robot}
+                    <div>
+                      <Robot size={64} />
+                    </div>
+                  {:else}
+                    <div class="shrug">
+                      <img src={getImg('Shrug_emote_icon')} alt="shrug_icon" />
+                    </div>
+                  {/if}
+                </div>
 
                 <div>
                   <h4 class="mb-1">No tasks to show</h4>

@@ -203,6 +203,18 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    .easter-egg {
+      cursor: pointer;
+    }
+
+    .shrug {
+      min-width: 64px;
+      min-height: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .bx--structured-list-th {
