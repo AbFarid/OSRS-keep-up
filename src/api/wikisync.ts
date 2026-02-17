@@ -1,4 +1,4 @@
-import { type Quests, type AchievementDiaries, type Levels, AllSkills } from '../types/OSRS'
+import { type Quests, type AchievementDiaries, type Levels } from '../types/OSRS'
 
 export interface PlayerData {
   username: string
@@ -14,9 +14,11 @@ export interface PlayerData {
 const patchOverall = (data: PlayerData) => {
   if (data.levels.Overall > 1) return data
 
-  const total = AllSkills.reduce((acc, skill) => {
-    return acc + (data.levels[skill] || 0)
-  } , 0)
+  // Sum all skills except "Overall" itself
+  const total = Object.entries(data.levels).reduce((acc, [skill, level]) => {
+    if (skill === 'Overall') return acc
+    return acc + (level || 0)
+  }, 0)
 
   data.levels.Overall = total
   return data
