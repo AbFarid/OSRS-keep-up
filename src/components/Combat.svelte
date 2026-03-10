@@ -46,12 +46,12 @@
   $: player2 = $playersStore[1]
   $: loaded = player1 && player2 && !$fetching
 
-  $: p1_cbach_all = player1?.combat_achievements.map(id =>
-    CB_ACH_ALL.find(ach => ach.id == id)
-  )
-  $: p2_cbach_all = player2?.combat_achievements.map(id =>
-    CB_ACH_ALL.find(ach => ach.id == id)
-  )
+  $: p1_cbach_all = player1?.combat_achievements
+    .map(id => CB_ACH_ALL.find(ach => ach.id == id))
+    .filter(Boolean)
+  $: p2_cbach_all = player2?.combat_achievements
+    .map(id => CB_ACH_ALL.find(ach => ach.id == id))
+    .filter(Boolean)
 
   // $: p1_cbach_count = tiers.reduce((counts, tier) => {
   //   const count = p1_cbach_all?.filter(a => a.tier == tier).length
